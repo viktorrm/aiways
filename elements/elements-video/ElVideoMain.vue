@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import CommonBreadcrumb from "~~/components/breadcrumb/CommonBreadcrumb.vue";
-import ArchitectureVideo from '~~/components/video-area/ArchitectureVideo.vue';
+/* import CommonBreadcrumb from "~~/components/breadcrumb/CommonBreadcrumb.vue";
+import ArchitectureVideo from '~~/components/video-area/ArchitectureVideo.vue'; */
 import LawyerVideo from '~~/components/video-area/LawyerVideo.vue';
-import ElVideoStyleOne from './ElVideoStyleOne.vue';
+/* import ElVideoStyleOne from './ElVideoStyleOne.vue'; */
 export default {
-  components: { CommonBreadcrumb, ElVideoStyleOne, LawyerVideo, ArchitectureVideo },
+  components: {  LawyerVideo,  },
 };
 </script>

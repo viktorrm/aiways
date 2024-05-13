@@ -2,12 +2,7 @@
   <section class="portfolio__area pb-60 fix">
     <div class="container">
       <div class="row">
-        <div class="col-xxl-12">
-          <div class="tp-section-wrapper-3 mb-60 text-center">
-            <span class="tp-section-subtitle-3">Modern & Clean Design</span>
-            <h3 class="tp-section-title-3">Carousel With Dots</h3>
-          </div>
-        </div>
+        
       </div>
       <div class="row justify-content-center">
         <div class="col-xl-12">

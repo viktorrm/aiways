@@ -26,8 +26,10 @@
       <div class="row">
         <div class="col-xxl-12">
           <div class="section__title-wrapper-5 mb-50 text-center">
-            <span class="section__title-pre-5">Pricing Plan</span>
-            <h3 class="section__title-5">Plans for Everyone</h3>
+         <!--    <span class="section__title-pre-5">Exterior expresivo,
+Impresionante interior.</span> -->
+            <h3 class="section__title-5">Exterior expresivo,
+Impresionante interior.</h3>
           </div>
         </div>
       </div>
@@ -49,7 +51,7 @@
                     role="tab"
                     aria-controls="nav-monthly"
                     aria-selected="true"
-                    >Billed monthly</span
+                    >Exterior   </span
                   >
                   <input type="checkbox" id="price-tab-check" />
                   <i></i>
@@ -61,7 +63,7 @@
                     role="tab"
                     aria-controls="nav-yearly"
                     aria-selected="false"
-                    >Billed yearly <span>-35%</span></span
+                    >Interior </span
                   >
                 </label>
               </div>
@@ -69,7 +71,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-xxl-12">
           <div
             class="tab-content"
@@ -143,7 +145,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

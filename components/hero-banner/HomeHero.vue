@@ -53,12 +53,14 @@ import bg_3 from "~/assets/img/slider/slider-3.jpg";
 // external
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Navigation, EffectFade } from "swiper";
+/* import  StartUpCounter  from "~/components/hero-banner/HomeHero.vue"; */
 
 export default {
   components: {
     Swiper,
     SwiperSlide,
  /*    SliderForm, */
+/*     StartUpCounter, */
   },
   data() {
     return {
