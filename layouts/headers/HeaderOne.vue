@@ -209,7 +209,7 @@ export default {
 
 <style scoped>
 
-.fontmenu {
+.main-menu-ff-space ul li a {
  color: black !important;
  outline-color: black;
  margin-right: 50px;

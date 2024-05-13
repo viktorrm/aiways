@@ -15,17 +15,17 @@
                 href="#"
                 class="video__play-btn tp-pulse-border popup-video"
               >
-                <span class="video-play-bg"></span>
-                <img src="~/assets/img/video/video-icon-play.png" alt="" />
+                <!-- <span class="video-play-bg"></span> -->
+              <!--   <img src="~/assets/img/video/video-icon-play.png" alt="" /> -->
               </a>
             </div>
-            <h3 class="video__title">The area where we practice Our lawyer</h3>
-            <div class="video__btn">
+         <!--    <h3 class="video__title"></h3> -->
+       <!--      <div class="video__btn">
               <nuxt-link href="/contact" class="tp-btn-transparent">
                 Ask for Constitution
                 <i class="fa-regular fa-arrow-right-long"></i>
               </nuxt-link>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import video_bg from "~/assets/img/video/video-bg.jpg";
+import video_bg from "~/assets/img/video/banner-1-mobile.png";
 import VideoModal from "../common/modals/VideoModal.vue";
 
 export default {

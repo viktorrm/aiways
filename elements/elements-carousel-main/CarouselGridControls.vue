@@ -4,8 +4,8 @@
       <div class="row">
         <div class="col-xxl-12">
           <div class="tp-section-wrapper-3 mb-60 text-center">
-            <span class="tp-section-subtitle-3">Modern & Clean Design</span>
-            <h3 class="tp-section-title-3">Carousel Grid With Controls</h3>
+            <span class="tp-section-subtitle-3">prueban</span>
+            <h3 class="tp-section-title-3">Carousels</h3>
           </div>
         </div>
       </div>
