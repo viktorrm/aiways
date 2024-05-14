@@ -1,12 +1,12 @@
- <template>
+<template>
   <header>
     <div
       :class="`header__area ${
         header_solid ? 'header__white-solid' : 'header__transparent'
-      } ${header_solid_2 ? 'header__white-solid-2 header__transparent' : ''} 
+      } ${header_solid_2 ? 'header__white-solid-2 header__transparent' : ''}
       ${header_black ? 'header__black' : ''}`"
     >
-<!--  -->
+      <!--  -->
       <div
         :class="`header__bottom header__sticky ${
           header_solid ? '' : `header__bottom-border${transparent ? '-3' : ''}`
@@ -85,10 +85,12 @@
                       </li>
                       <li>
                         <button
-                        @click="handleOffCanvas"
+                          @click="handleOffCanvas"
                           type="button"
                           :class="`hamburger-btn ${
-                            header_solid || header_black ? 'hamburger-btn-black' : ''
+                            header_solid || header_black
+                              ? 'hamburger-btn-black'
+                              : ''
                           } offcanvas-open-btn`"
                         >
                           <span></span>
@@ -100,11 +102,13 @@
                   </div>
                   <div class="header__hamburger ml-50 d-xl-none">
                     <button
-                     @click="handleOffCanvas"
+                      @click="handleOffCanvas"
                       type="button"
                       :class="`hamburger-btn ${
-                            header_solid || header_black ? 'hamburger-btn-black' : ''
-                          } offcanvas-open-btn`"
+                        header_solid || header_black
+                          ? 'hamburger-btn-black'
+                          : ''
+                      } offcanvas-open-btn`"
                     >
                       <span></span>
                       <span></span>
@@ -125,11 +129,11 @@
   </header>
 
   <!-- off canvas full start -->
-  <off-canvas-main ref="off_canvas" v-if="!commonOffcanvas"/>
+  <off-canvas-main ref="off_canvas" v-if="!commonOffcanvas" />
   <!-- off canvas full end -->
 
   <!-- commonOffcanvas start -->
-  <off-canvas-six ref="off_canvas" v-if="commonOffcanvas"/>
+  <off-canvas-six ref="off_canvas" v-if="commonOffcanvas" />
   <!-- commonOffcanvas end -->
 </template>
 
@@ -138,9 +142,9 @@ import menus from "./menus.vue";
 import HeaderInfo from "./component/HeaderInfo.vue";
 import Language from "./component/Language.vue";
 import SearchPopup from "./component/SearchPopup.vue";
-import { useUtilsStore } from '~~/store/utils';
-import OffCanvasMain from '~~/components/common/off-canvas/OffCanvasMain.vue';
-import OffCanvasSix from '~~/components/common/off-canvas/OffCanvasSix.vue';
+import { useUtilsStore } from "~~/store/utils";
+import OffCanvasMain from "~~/components/common/off-canvas/OffCanvasMain.vue";
+import OffCanvasSix from "~~/components/common/off-canvas/OffCanvasSix.vue";
 
 export default {
   data() {
@@ -197,9 +201,9 @@ export default {
       }
     },
   },
-  setup () {
+  setup() {
     const utils = useUtilsStore();
-    return {utils}
+    return { utils };
   },
   mounted() {
     window.addEventListener("scroll", this.handleSticky);
@@ -207,13 +211,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-.main-menu-ff-space ul li a {
- color: black !important;
- outline-color: black;
- margin-right: 50px;
-
-  }
-
-</style>
+<style scoped></style>
