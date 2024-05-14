@@ -5,7 +5,7 @@
     <AboutTextArea/>
     <BoxShadowStyle/>
      <ElVideoMain/>
-      <ElVideoMain/>
+      <!-- <ElVideoMain/> -->
       <DetailsDesc/>
      <SliderWithDots/>
      <AboutFaqs/>
@@ -29,6 +29,6 @@ import AgencyPricing from '~~/components/pricing/AgencyPricing.vue';
 
 useHead({
   title: "Aiways Costa Rica",
-}); 
+});
 
 </script>
