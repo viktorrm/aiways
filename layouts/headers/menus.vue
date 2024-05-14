@@ -40,3 +40,12 @@ export default {
   mixins: [menuData],
 };
 </script>
+<style scoped>
+.main-menu ul li a {
+  color: black;
+}
+
+.main-menu ul li:hover > a::after {
+  color: black !important;
+}
+</style>
