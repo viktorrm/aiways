@@ -3,12 +3,12 @@
     <li
       v-for="(menu, i) in menuData"
       :key="i"
-      :class="`has-dropdown ${menu.megaMenu ? 'has-mega-menu' : ''}`"
+      :class="`${menu.megaMenu ? 'has-mega-menu' : ''}`"
     >
       <NuxtLink :to="menu.link">
         {{ menu.title }}
       </NuxtLink>
-      <ul v-if="menu.hasDropdown" class="submenu">
+      <!--       <ul v-if="menu.hasDropdown" class="submenu">
         <li v-for="(sub, i) in menu.submenus" :key="i">
           <NuxtLink :to="sub.link">
             {{ sub.title }}
@@ -28,7 +28,7 @@
             </li>
           </ul>
         </li>
-      </ul>
+      </ul> -->
     </li>
   </ul>
 </template>
