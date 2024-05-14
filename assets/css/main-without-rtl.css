@@ -12,7 +12,7 @@
 
     01. THEME DEFAULT CSS
     02. LOGO CSS
-    03. HEADER CSS
+    03. HEADER CSS--tp-theme-1
     04. MENU CSS
     05. MEAN MENU CSS
     06. SLIDER CSS
@@ -281,7 +281,7 @@
 }
 
 /*---------------------------------
-	typography css start 
+	typography css start
 ---------------------------------*/
 body {
   font-family: var(--tp-ff-body);
@@ -512,7 +512,7 @@ input[type=color] {
 }
 
 /*---------------------------------
-    common classes css start 
+    common classes css start
 ---------------------------------*/
 .w-img img {
   width: 100%;
@@ -562,7 +562,7 @@ input[type=color] {
 }
 
 /*----------------------------------------
-    Body Overlay 
+    Body Overlay
 -----------------------------------------*/
 .body-overlay {
   background-color: var(--tp-common-black);

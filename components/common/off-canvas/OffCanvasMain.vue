@@ -9,7 +9,7 @@
                   <path d="M31 1L1 31" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M1 1L31 31" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   </g>
-                  </svg>                                               
+                  </svg>
             </button>
           </div>
           <div class="offcanvas__full-content">
