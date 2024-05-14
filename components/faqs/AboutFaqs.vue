@@ -1,38 +1,25 @@
 <template>
   <section class="faq__area p-relative">
+    <div class="container">
+      <div class="row">
+    <div class="col text-center "> <H1 class="centrar">Tren de potencia y paquete de baterías</H1></div> </div> </div>
     <div class="faq__video" :style="{ backgroundImage: `url(${bg})` }">
-      <div class="faq__video-btn">
-        <a
-          href="#"
-          @click.prevent="handleVideoPopup"
-          class="tp-pulse-border popup-video"
-        >
-          <svg
-            width="18"
-            height="22"
-            viewBox="0 0 18 22"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M18 11L0 21.3923V0.607696L18 11Z" fill="currentColor" />
-          </svg>
-        </a>
-      </div>
+   <!--  -->
     </div>
     <div class="container-fluid">
       <div class="row justify-content-end">
-        <div class="col-xxl-7 col-xl-7 col-lg-7">
+        <div class="col-xxl- col-xl-7 col-lg-7">
           <div
-            class="faq__wrapper-2 faq__gradient-border faq__style-2 tp-accordion pl-160"
+            class="faq__wrapper-2  faq__style-2 tp-accordion pl-160"
           >
-            <div class="faq__title-wrapper">
+           <!--  <div class="faq__title-wrapper">
               <span class="faq__title-pre"
-                >{{el_style ? 'Minimal Design':'Get in touch with us to see how'}}</span
+                >{{el_style ? 'Minimal Design':'Tren de potencia y paquete de baterías.'}}</span
               >
               <h3 class="faq__title">
-                {{el_style ? 'Accordion with image':'Provide smart and flexible digital services'}}
+                {{el_style ? 'Accordion with image':''}}
               </h3>
-            </div>
+            </div> -->
             <div class="accordion" id="about-faqaccordion">
               <single-faq
                 v-for="(item, i) in faq_items"
@@ -44,19 +31,19 @@
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- video modal start -->
-  <video-modal
-    ref="video_modal"
-    video-url="https://www.youtube.com/embed/_RpLvsA1SNM"
-  />
-  <!-- video modal end -->
+  </section>
+<div class="container">
+  <div class="row"> 
+    <div> <h4 class="">Aiways U5: Consumo combinado de electricidad¹ en kWh/100 km: 13.8 (NEDC);
+
+17.0–16.6 (WLTP). Emisiones combinadas de CO₂¹: 0 g/km. Clase de eficiencia: A+</h4></div></div></div>
+
 </template>
 
 <script>
 import SingleFaq from "./SingleFaq.vue";
-import bg from "~/assets/img/faq/faq-img.jpg";
+import bg from "~/assets/img/faq/index-6.png";
 import VideoModal from "../common/modals/VideoModal.vue";
 
 export default {
@@ -73,21 +60,33 @@ export default {
       faq_items: [
         {
           id: "about-one",
-          title: "Can I cancel my account at any time?",
+          title: "Motor eléctrico síncrono",
           show: true,
-          desc: "Non similique culpa in provident quos sit commodi beatae ea laborum suscipit id autem velit aut iusto odio et deleniti quis et doloremque enim vel consequuntur quos.",
+          desc: "Desarrollado internamente por Aiways, el motor eléctrico síncrono de imanes permanentes del automóvil es un motor potente que libera un rendimiento impresionante; Los 150 kW (204 CV) y el par máximo de 310 Nm garantizan una capacidad de respuesta dinámica, junto con la máxima eficiencia y cero emisiones.",
           parent: "about-faqaccordion",
         },
         {
           id: "about-two",
-          title: "What happens after the license expires?",
-          desc: "Non similique culpa in provident quos sit commodi beatae ea laborum suscipit id autem velit aut iusto odio et deleniti quis et doloremque enim vel consequuntur quos.",
+          title: "Potencia y capacidad",
+          desc: "Instalado dentro de una estructura sándwich, el paquete de baterías Aiways U5 consta de 24 módulos con alta densidad de energía. Los módulos son suministrados por el renombrado proveedor CATL, mientras que la batería y la electrónica de la batería se han desarrollado internamente. El innovador paquete de baterías cuenta con 63 kWh de capacidad y alimenta el motor con 150 kW y 310 Nm, lo que permite una autonomía de 410 km (400 km para el modelo PRIME).* En virtud de la alta eficiencia de carga, la carga (CC) del 20 % al 80 % tarda solo 35 minutos. Calculado en condiciones de prueba similares a las del WLTP, informe oficial de julio de 2020.",
           parent: "about-faqaccordion",
-        },
+        }, 
         {
           id: "about-three",
-          title: "Does Harry have any documentations?",
-          desc: "Non similique culpa in provident quos sit commodi beatae ea laborum suscipit id autem velit aut iusto odio et deleniti quis et doloremque enim vel consequuntur quos.",
+          title: "Estructura de Sandwich",
+          desc: "",
+          parent: "about-faqaccordion",
+        },
+         {
+          id: "about-three",
+          title: "Seguridad",
+          desc: "La separación entre las zonas secas y húmedas garantiza un nivel de seguridad sin precedentes, incluso si la batería se deforma o se rompe. En caso de una colisión grave, el módulo de la batería también está protegido contra fugas de refrigerante. Esto elimina el riesgo de incendio/explosión. Como tal, un espacio de 15 mm entre la parte inferior de la placa de la batería y el módulo de la batería sirve como protección contra impactos",
+          parent: "about-faqaccordion",
+        },
+         {
+          id: "about-three",
+          title: "Enfriamiento",
+          desc: "",
           parent: "about-faqaccordion",
         },
       ],
@@ -100,3 +99,12 @@ export default {
   },
 };
 </script>
+<style scoped>
+.faq__style-2{
+  border-left: none;
+}
+.centrar{
+  position: absolute;
+}
+
+</style>
