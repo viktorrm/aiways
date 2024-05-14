@@ -1,28 +1,8 @@
 <template>
   <section class="pricing__area pt-110 pb-140 p-relative z-index-1">
-    <div class="pricing__shape">
-      <img
-        class="pricing__shape-2"
-        src="~/assets/img/price/5/shape/price-shape-1.png"
-        alt="shape"
-      />
-      <img
-        class="pricing__shape-3"
-        src="~/assets/img/price/5/shape/price-shape-2.png"
-        alt="shape"
-      />
-      <img
-        class="pricing__shape-4"
-        src="~/assets/img/price/5/shape/price-shape-3.png"
-        alt="shape"
-      />
-      <img
-        class="pricing__shape-5"
-        src="~/assets/img/price/5/shape/price-shape-4.png"
-        alt="shape"
-      />
-    </div>
+
     <div class="container">
+      
       <div class="row">
         <div class="col-xxl-12">
           <div class="section__title-wrapper-5 mb-50 text-center">
@@ -31,6 +11,9 @@ Impresionante interior.</span> -->
             <h3 class="section__title-5">Exterior expresivo,
 Impresionante interior.</h3>
           </div>
+          <div class="pt-25 pb-25 text-center"> <p>En el U5, que viene completamente equipado de serie, puedes causar una gran impresión mientras disfrutas del máximo confort. Su diseño elegante pero dinámico es tanto estéticamente agradable como atemporal.
+
+El interior presume de un estilo de diseño minimalista y materiales sofisticados. Prepárate para una variedad de opciones de iluminación, una pantalla táctil suspendida como elemento de control central y un nivel excepcional de amplitud. Gracias a la altura y el espacio para las piernas sin igual en esta clase de vehículos, el concepto de espacio interior se redefine. No es de extrañar que te sientas como en casa en tu U5 espectacularmente espacioso.</p></div>
         </div>
       </div>
       <div class="row justify-content-center">

@@ -6,11 +6,13 @@
     <BoxShadowStyle/>
      <ElVideoMain/>
       <ElVideoMain/>
-      <DetailsDesc/>
+      <AgencyPricing/>
      <SliderWithDots/>
      <AboutFaqs/>
 <FaqArea/>
+<HomeAbout/>
 <AgencyPricing/>
+<EspecificacionesTec/>
   </LayoutOne>
 </template>
 
@@ -25,7 +27,8 @@ import DetailsDesc from '~~/components/product-details/DetailsDesc.vue';
 import AboutFaqs from '~~/components/faqs/AboutFaqs.vue';
 import FaqArea from '~~/components/faqs/FaqArea.vue';
 import AgencyPricing from '~~/components/pricing/AgencyPricing.vue';
-
+import HomeAbout from '~/components/abouts/HomeAbout.vue';
+import EspecificacionesTec from '~~/components/Aiways/EspecificacionesTec.vue';
 
 useHead({
   title: "Aiways Costa Rica",
