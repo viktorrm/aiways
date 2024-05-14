@@ -19,7 +19,7 @@
         </div>
       </div> -->
       <div class="row">
-        <div class="col-6 img_specs"> <img src= "/_nuxt/assets/img/carga.jpg"/></div>
+        <div class="col-6 img_specs"> <img src= "/_nuxt/assets/img/u5-premium.jpg"/></div>
         <div class="col-6">
             
           <div class="faq__tab-2 tp-tab mb-50">

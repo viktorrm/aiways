@@ -100,18 +100,7 @@
                         Mac iOS</a>
                     </div>
                   </div>
-                  <div class="footer__qrcode d-flex align-items-center">
-                    <div class="footer__qrcode-thumb mr-10">
-                      <a @click.prevent="handleImagePopup(0)" class="popup-image" href="#">
-                        <img src="~/assets/img/icon/qrcode.png" alt="">
-                      </a>
-                    </div>
-                    <div class="footer__qrcode-content">
-                      <p>
-                        <a class="popup-image" href="~/assets/img/icon/qrcode.png">Scan to Download The Themes</a>
-                      </p>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -165,4 +154,11 @@ export default {
   },
   }
 </script>
+
+<style scoped>
+.footer__top{
+  background-color: #ffffff ;
+  
+}
+</style>
 
