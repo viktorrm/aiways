@@ -1,8 +1,7 @@
 <template>
   <section
-    :class="`video__area pt-145 pb-125 include-bg ${el_style?'mb-120':''}`"
-    data-overlay="dark"
-    data-overlay-opacity="6"
+    :class="`video__area pt-200 pb-200 include-bg ${el_style?'mb-120':''}`"
+  
     :style="{ backgroundImage: `url(${video_bg})` }"
   >
     <div class="container">
@@ -12,8 +11,8 @@
             <div class="video__play">
               <a
                 @click.prevent="handleVideoPopup"
-                href="#"
-                class="video__play-btn tp-pulse-border popup-video"
+                
+                class="video__play-btn  popup-video"
               >
                 <!-- <span class="video-play-bg"></span> -->
               <!--   <img src="~/assets/img/video/video-icon-play.png" alt="" /> -->
@@ -33,10 +32,10 @@
   </section>
 
   <!-- video modal start -->
-  <video-modal
+<!--   <video-modal
     ref="video_modal"
     video-url="https://www.youtube.com/embed/7e90gBu4pas"
-  />
+  /> -->
   <!-- video modal end -->
 </template>
 

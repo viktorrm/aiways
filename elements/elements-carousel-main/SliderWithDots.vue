@@ -52,15 +52,17 @@
 // external
 import { Carousel, Slide, Pagination } from "vue3-carousel";
 // internal
-import img_1 from "~/assets/img/portfolio/details/slider/portfolio-details-slider-1.jpg";
-import img_2 from "~/assets/img/portfolio/details/slider/portfolio-details-slider-2.jpg";
-import img_3 from "~/assets/img/portfolio/details/slider/portfolio-details-slider-3.jpg";
-
+import img_1 from "~/assets/img/portfolio/details/slider/galeria1.jpg";
+import img_2 from "~/assets/img/portfolio/details/slider/galeria2.jpg";
+import img_3 from "~/assets/img/portfolio/details/slider/galeria3.jpg";
+import img_4 from "~/assets/img/portfolio/details/slider/galeria4.jpg";
+import img_5 from "~/assets/img/portfolio/details/slider/galeria5.jpg";
+import img_6 from "~/assets/img/portfolio/details/slider/galeria6.jpg";
 export default {
   components: { Carousel, Slide, Pagination },
   data() {
     return {
-      images: [img_1, img_2, img_3, img_2, img_1],
+      images: [img_1, img_2, img_3, img_4, img_5, img_6],
     };
   },
 };
