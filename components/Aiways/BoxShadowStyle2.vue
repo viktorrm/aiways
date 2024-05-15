@@ -8,7 +8,7 @@
               <div class="services__item-style-2  mb-30 transition-3">
         
                 <div class="services__content-9 fontconfig">
-                    <span class="services-project">150 kw/ 204 PS</span>
+                    <span class="services-project">160 kw/ 218 PS</span>
                     <h3 class="services__title-9 marginb">
                        Potencia del motor
                     </h3>
@@ -34,15 +34,21 @@
            
                 </div>
                 <div class="services__content-9">
-                    <span class="services-project fontconfig">400+ km</span>
+                    <span class="services-project fontconfig">405+ km</span>
                     <h3 class="services__title-9 marginb">
                      Rango (WLTP)
                     </h3>
                 </div>
               </div>
+
+              <div><p>Aiways</p></div>
           </div>
         </div>
     </div>
+    <div class="container">
+  <div class="row"> 
+    <div> <p class="text-center">Aiways U6: Consumo combinado de electricidad¹ en kWh/100 km: 16 (WLTP).
+Emisiones combinadas de CO₂¹: 0 g/km. Clase de eficiencia: A+</p></div></div></div>
   </section>
 </template>
 

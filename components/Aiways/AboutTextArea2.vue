@@ -19,8 +19,7 @@
             data-sal="slide-up" data-sal-delay="160" data-sal-duration="1000"
           >
             <p>
-              El Aiways U5 no deja nada que desear y no deja lugar a concesiones.
-Esto se debe a que este SUV eléctrico combina incomparablemente una autonomía excepcional con mucho espacio, un lenguaje de diseño minimalista con características impresionantes y tecnologías innovadoras con un manejo sencillo.
+              El nuevo Aiways U6 es un SUV totalmente eléctrico que combina pasión con innovación. Construido sobre la misma plataforma de vanguardia que el U5, ofrece una experiencia de conducción eléctrica suave, tecnología de batería potente y sistemas avanzados de asistencia al conductor.
             </p>
 
       
@@ -32,21 +31,21 @@ Esto se debe a que este SUV eléctrico combina incomparablemente una autonomía 
             data-sal="slide-up" data-sal-delay="160" data-sal-duration="1000"
           >
             <p>
-            a sea para viajes cortos por la ciudad o viajes largos por el campo, todo lo que tiene que hacer es enchufar y listo.
-Con Aiways U5 llegará a su destino de forma cómoda y económica.
-El U5 totalmente eléctrico ofrece placer de conducción de principio a fin, sea cual sea el destino.
-Haga su pedido ahora y aproveche atractivos bonos de compra medioambientales.
+           Al mismo tiempo, sus líneas de estilo coupé, su rendimiento atlético y sus destacados diseños inspirados en el deporte le otorgan a este SUV un carácter único, audaz y altamente emotivo que realmente lo distingue.
             </p>
 
            
           </div>
         </div>
+        
       </div>
     </div>
+    
   </section>
 </template>
 
 <script>
+
 import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
 
 export default {
