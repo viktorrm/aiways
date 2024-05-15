@@ -12,6 +12,7 @@
         </div>
       </div>
     </div>
+
     <div class="about__btn">
       <nuxt-link href="/about" class="tp-btn">Discover Now</nuxt-link>
     </div>
@@ -74,9 +75,9 @@ export default {
 }
 .text_in_photo {
   position: absolute;
-  width: 55%;
+  width: 40%;
   height: 600px;
-  right: -9%;
+  right: 0%;
   top: -350px;
   rotate: -15deg;
   border-bottom-left-radius: 50px;
