@@ -2,7 +2,7 @@
   <div class="container">
     <div class="">
       <div class="text-center mt-100 mb-5">
-        <H1 class="centrar">Especificaciones Técnicas</H1>
+        <h1 class="centrar">Especificaciones Técnicas</h1>
       </div>
     </div>
   </div>

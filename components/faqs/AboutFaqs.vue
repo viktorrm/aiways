@@ -2,8 +2,8 @@
   <section class="faq__area p-relative">
     <div class="container">
       <div class="">
-    <div class=" text-center "> <H1 class="centrar">Tren de potencia y paquete de baterías</H1></div> 
-    </div> 
+    <div class=" text-center "> <h1 class="centrar">Tren de potencia y paquete de baterías</h1></div>
+    </div>
     </div>
     <div class="faq__video" :style="{ backgroundImage: `url(${bg})` }">
    <!--  -->
@@ -36,7 +36,7 @@
 
   </section>
 <div class="container">
-  <div class="row"> 
+  <div class="row">
     <div> <h4 class="">Aiways U5: Consumo combinado de electricidad¹ en kWh/100 km: 13.8 (NEDC);
 
 17.0–16.6 (WLTP). Emisiones combinadas de CO₂¹: 0 g/km. Clase de eficiencia: A+</h4></div></div></div>
@@ -72,7 +72,7 @@ export default {
           title: "Potencia y capacidad",
           desc: "Instalado dentro de una estructura sándwich, el paquete de baterías Aiways U5 consta de 24 módulos con alta densidad de energía. Los módulos son suministrados por el renombrado proveedor CATL, mientras que la batería y la electrónica de la batería se han desarrollado internamente. El innovador paquete de baterías cuenta con 63 kWh de capacidad y alimenta el motor con 150 kW y 310 Nm, lo que permite una autonomía de 410 km (400 km para el modelo PRIME).* En virtud de la alta eficiencia de carga, la carga (CC) del 20 % al 80 % tarda solo 35 minutos. Calculado en condiciones de prueba similares a las del WLTP, informe oficial de julio de 2020.",
           parent: "about-faqaccordion",
-        }, 
+        },
         {
           id: "about-three",
           title: "Estructura de Sandwich",
