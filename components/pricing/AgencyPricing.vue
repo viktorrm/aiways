@@ -1,145 +1,93 @@
 <template>
   <section class="pricing__area pt-110 pb-140 p-relative z-index-1">
-    <div class="pricing__shape">
-      <img
-        class="pricing__shape-2"
-        src="~/assets/img/price/5/shape/price-shape-1.png"
-        alt="shape"
-      />
-      <img
-        class="pricing__shape-3"
-        src="~/assets/img/price/5/shape/price-shape-2.png"
-        alt="shape"
-      />
-      <img
-        class="pricing__shape-4"
-        src="~/assets/img/price/5/shape/price-shape-3.png"
-        alt="shape"
-      />
-      <img
-        class="pricing__shape-5"
-        src="~/assets/img/price/5/shape/price-shape-4.png"
-        alt="shape"
-      />
-    </div>
     <div class="container">
       <div class="row">
         <div class="col-xxl-12">
           <div class="section__title-wrapper-5 mb-50 text-center">
-            <span class="section__title-pre-5">Pricing Plan</span>
-            <h3 class="section__title-5">Plans for Everyone</h3>
+            <h3 class="section__title-5">
+              Exterior expresivo, Impresionante interior.
+            </h3>
+          </div>
+          <div class="pt-25 pb-25 text-center">
+            <p>
+              En el U5, que viene completamente equipado de serie, puedes causar
+              una gran impresión mientras disfrutas del máximo confort. Su
+              diseño elegante pero dinámico es tanto estéticamente agradable
+              como atemporal. El interior presume de un estilo de diseño
+              minimalista y materiales sofisticados. Prepárate para una variedad
+              de opciones de iluminación, una pantalla táctil suspendida como
+              elemento de control central y un nivel excepcional de amplitud.
+              Gracias a la altura y el espacio para las piernas sin igual en
+              esta clase de vehículos, el concepto de espacio interior se
+              redefine. No es de extrañar que te sientas como en casa en tu U5
+              espectacularmente espacioso.
+            </p>
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9">
+        <!--  -->
+
+        <!--  -->
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
           <div class="pricing__tab-nav tp-tab mb-50 mx-auto">
-            <nav>
-              <div
-                class="nav nav-tabs price-tab-slide justify-content-center"
-                id="nav-tab"
-                role="tablist"
+            <div class="tab-container">
+              <button
+                v-for="(tab, i) in [specs.interior, specs.exterior]"
+                :key="i"
+                :class="`${
+                  activeTab === `tab${2 - i}` ? 'selected_tab' : ''
+                } w-100 tab-button${2 - i}`"
+                @click="setActiveTab(`tab${2 - i}`, i)"
               >
-                <label for="price-tab-check" class="nav justify-content-center">
-                  <span
-                    class="nav-link"
-                    id="nav-monthly-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#nav-monthly"
-                    role="tab"
-                    aria-controls="nav-monthly"
-                    aria-selected="true"
-                    >Billed monthly</span
-                  >
-                  <input type="checkbox" id="price-tab-check" />
-                  <i></i>
-                  <span
-                    class="nav-link active"
-                    id="nav-yearly-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#nav-yearly"
-                    role="tab"
-                    aria-controls="nav-yearly"
-                    aria-selected="false"
-                    >Billed yearly <span>-35%</span></span
-                  >
-                </label>
+                {{ i === 0 ? "Interior" : "Exterior" }}
+              </button>
+            </div>
+          </div>
+          <div class="tab-pane text-black">
+            <section class="faq__area pt-20 pb-25">
+              <div class="container">
+                <div class="row">
+                  <div class="">
+                    <div class="faq__tab-2 tp-tab mb-50">
+                      <ul
+                        class="nav justify-content-center nav-tabs"
+                        id="myTab"
+                        role="tablist"
+                      >
+                        <li v-for="(item, index) in tabSpecs" :key="index">
+                          <button
+                            :class="`nav-link ${index === 0 ? 'active' : ''}`"
+                            :id="`${item.title}-tab`"
+                            data-bs-toggle="tab"
+                            :data-bs-target="`#${item.title}`"
+                            type="button"
+                            role="tab"
+                            :aria-controls="`${item.title}`"
+                            aria-selected="true"
+                            @click="selectedSpec = item"
+                          >
+                            {{ item.title }}
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </nav>
+            </section>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-xxl-12">
-          <div
-            class="tab-content"
-            id="nav-tabContent"
-            data-sal="slide-up" data-sal-delay="130" data-sal-duration="1000"
-          >
-            <div
-              v-for="(item, i) in pricing_data"
-              :key="i"
-              :class="`tab-pane fade ${item.active ? 'show active' : ''}`"
-              :id="`${item.id}`"
-              role="tabpanel"
-              :aria-labelledby="`${item.id}-tab`"
-              tabIndex="0"
-            >
-              <div class="row">
-                <div
-                  v-for="(item_box, i) in item.pricing_items"
-                  :key="i"
-                  class="col-xxl-4 col-xl-4 col-lg-4 col-md-6"
-                >
-                  <div
-                    :class="`pricing__item-5 d-flex flex-column ${
-                      item_box.has_popular ? 'has-popular' : ''
-                    } mb-40`"
-                  >
-                    <div
-                      v-if="item_box.has_popular"
-                      class="pricing__popular"
-                    >
-                      <p>MOST POPULAR</p>
-                    </div>
-
-                    <div class="pricing__top-5 grey-bg-10 p-relative">
-                      <div class="pricing__icon-5">
-                        <img :src="item_box.icon" alt="icon" />
-                      </div>
-                      <div class="pricing__title-wrapper">
-                        <h3 class="pricing__title-5">
-                          ${{item_box.price}}
-                          <span>/{{item_box.price_text}}</span>
-                        </h3>
-                        <p>{{ item_box.text }}</p>
-                      </div>
-                      <div class="pricing__tag-5">
-                        <span>{{ item_box.tag }}</span>
-                      </div>
-                    </div>
-                    <div class="pricing__content-5">
-                      <div
-                        class="pricing__content-5-inner d-flex flex-column justify-content-between"
-                      >
-                        <div class="pricing__feature-5">
-                          <p>{{ item_box.feature_text }}</p>
-                          <ul>
-                            <li v-for="(l, i) in item_box.lists" :key="i">
-                              {{ l }}
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="pricing__btn-5">
-                          <nuxt-link href="/contact" class="tp-btn-grey w-100">
-                            Choose Plan
-                          </nuxt-link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="desc mb-50">
+            <img v-if="selectedSpec" :src="selectedSpec.img" alt="" />
+            <div class="title_in_photo mt-40 text-center">
+              {{ selectedSpec.title }}
+            </div>
+            <div class="mt-40 description text-left">
+              {{ selectedSpec.desc?.desc }}
             </div>
           </div>
         </div>
@@ -154,11 +102,16 @@ import price_icon_1 from "~/assets/img/price/5/price-icon-1.png";
 import price_icon_2 from "~/assets/img/price/5/price-icon-2.png";
 import price_icon_3 from "~/assets/img/price/5/price-icon-3.png";
 import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
+import { specs } from "~~/mixins/u5_Interior_Exterior.js";
 
 export default {
   mixins: [SalScrollAnimationMixin],
   data() {
     return {
+      tabSpecs: [],
+      specs,
+      selectedSpec: {},
+      activeTab: "tab1",
       pricing_data: [
         {
           id: "nav-monthly",
@@ -264,5 +217,88 @@ export default {
       ],
     };
   },
+  mounted() {
+    this.tabSpecs = this.specs.interior;
+  },
+  methods: {
+    setActiveTab(tab, i) {
+      this.tabSpecs = i === 1 ? this.specs.interior : this.specs.exterior;
+      this.activeTab = tab;
+    },
+  },
 };
 </script>
+<style scoped>
+.justify-content-center {
+  text-align: center;
+}
+.tab2 {
+  padding-left: 70px;
+}
+/*  */
+.tab-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-button1 {
+  cursor: pointer;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  outline: none;
+}
+.tab-button2 {
+  cursor: pointer;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  outline: none;
+}
+
+.selected_tab {
+  background-color: #00cfb4;
+  color: #ffffff;
+}
+.desc {
+  width: 100%; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  overflow: hidden; /* Ensure image does not overflow container */
+}
+.desc img {
+  width: 100%; /* Make the image fill the width of the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  border-top-left-radius: 150px; /* Ensure proper alignment */
+}
+
+.title_in_photo {
+  font-size: 48px;
+}
+
+.description {
+  font-size: 25px;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.faq__tab-2 {
+  border-bottom: none;
+}
+.fcolor {
+  color: #00cfb4;
+}
+.faq__tab-2 .nav-link.active {
+  background-color: #ffffff;
+  color: #00cfb4;
+}
+.faq__tab-2 .nav-link::after {
+  background-color: #00cfb4;
+  color: #00cfb4;
+}
+</style>

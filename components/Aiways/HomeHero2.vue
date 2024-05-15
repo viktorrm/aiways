@@ -70,7 +70,7 @@ export default {
       slider_data: [
         {
           id: 1,
-          title: "El nuevo Aiways U5",
+          title: "Descubre el Aiways U6",
           bg: bg_1,
         },
         {

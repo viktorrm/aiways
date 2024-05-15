@@ -1,33 +1,42 @@
 <template>
   <LayoutOne>
     <HomeHero />
-    <HomeAbout/>
-    <HomeCounter/>
-    <HomeServices/>
-    <HomeEvents/>
-    <HomeTeams/>
-    <HomeFaq/>
-    <HomePortfolio/>
-    <HomeTestimonial/>
-    <HomeBlogs/>
+    <!--   <HomeAbout/> -->
+    <AboutTextArea />
+    <BoxShadowStyle />
+    <ElVideoMain />
+    <AgencyPricing />
+    <!-- <ElVideoMain/> -->
+    <!--  <DetailsDesc/> -->
+    <SliderWithDots />
+    <AboutFaqs />
+    <FaqArea />
+    <HomeAbout />
+    <AgencyPricing />
+    <EspecificacionesTec />
   </LayoutOne>
 </template>
 
 <script setup>
-import LayoutOne from '~/layouts/LayoutOne.vue';
-import HomeHero from '~/components/hero-banner/HomeHero.vue';
+import LayoutOne from "~/layouts/LayoutOne.vue";
+import HomeHero from "~/components/hero-banner/HomeHero.vue";
+import AboutTextArea from "/components/abouts/about-page-com/AboutTextArea.vue";
+import BoxShadowStyle from "~~/elements/elements-iconbox/BoxShadowStyle.vue";
+import ElVideoMain from "~~/elements/elements-video/ElVideoMain.vue";
+import SliderWithDots from "~~/elements/elements-carousel-main/SliderWithDots.vue";
+import DetailsDesc from "~~/components/product-details/DetailsDesc.vue";
+import AboutFaqs from "~~/components/faqs/AboutFaqs.vue";
+import FaqArea from "~~/components/faqs/FaqArea.vue";
+import AgencyPricing from "~~/components/pricing/AgencyPricing.vue";
 import HomeAbout from "~/components/abouts/HomeAbout.vue";
-import HomeCounter from "~/components/counters/HomeCounter.vue";
-import HomeServices from "~/components/services/HomeServices.vue";
-import HomeEvents from "~/components/events/HomeEvents.vue";
-import HomeTeams from "~/components/teams/HomeTeams.vue";
-import HomeFaq from "~/components/faqs/HomeFaq.vue";
-import HomePortfolio from "~/components/portfolios/HomePortfolio.vue";
-import HomeTestimonial from "~/components/testimonials/HomeTestimonial.vue";
-import HomeBlogs from "~/components/blogs/HomeBlogs.vue";
+import EspecificacionesTec from "~~/components/Aiways/EspecificacionesTec.vue";
 
 useHead({
-  title: "Home main - Creative Agency & Portfolio Vue Nuxt 3 Template",
-}); 
-
+  title: "Aiways Costa Rica",
+});
 </script>
+<style scoped>
+* {
+  overflow-x: hidden;
+}
+</style>

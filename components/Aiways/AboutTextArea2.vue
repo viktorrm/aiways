@@ -9,7 +9,7 @@
           >
             <h3 class="about__text-title">
                <br />
-              Totalmente eléctrico, totalmente equipado, totalmente adecuado para la vida cotidiana.
+              ¡Claro y conciso! Así me gusta.
             </h3>
           </div>
         </div>
@@ -32,7 +32,7 @@ Esto se debe a que este SUV eléctrico combina incomparablemente una autonomía 
             data-sal="slide-up" data-sal-delay="160" data-sal-duration="1000"
           >
             <p>
-              Ya sea para viajes cortos por la ciudad o viajes largos por el campo, todo lo que tiene que hacer es enchufar y listo.
+            a sea para viajes cortos por la ciudad o viajes largos por el campo, todo lo que tiene que hacer es enchufar y listo.
 Con Aiways U5 llegará a su destino de forma cómoda y económica.
 El U5 totalmente eléctrico ofrece placer de conducción de principio a fin, sea cual sea el destino.
 Haga su pedido ahora y aproveche atractivos bonos de compra medioambientales.

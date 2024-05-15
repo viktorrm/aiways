@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-xxl-12">
           <div class="tp-section-wrapper-3 mb-60 text-center">
-            <span class="tp-section-subtitle-3">Modern & Clean Design</span>
+            <span class="tp-section-subtitle-3"></span>
             <h3 class="tp-section-title-3">Carousel With Controls</h3>
           </div>
         </div>

@@ -1,12 +1,12 @@
- <template>
+<template>
   <header>
     <div
       :class="`header__area ${
         header_solid ? 'header__white-solid' : 'header__transparent'
-      } ${header_solid_2 ? 'header__white-solid-2 header__transparent' : ''} 
+      } ${header_solid_2 ? 'header__white-solid-2 header__transparent' : ''}
       ${header_black ? 'header__black' : ''}`"
     >
-<!--  -->
+      <!--  -->
       <div
         :class="`header__bottom header__sticky ${
           header_solid ? '' : `header__bottom-border${transparent ? '-3' : ''}`
@@ -26,7 +26,7 @@
                     />
                     <img
                       class="logo-dark"
-                      src="~/assets/img/logo/logo-black.svg"
+                      src="~/assets/img/logo/aiways-logo.svg"
                       alt="logo"
                     />
                   </nuxt-link>
@@ -53,42 +53,15 @@
                 >
                   <div class="header__action d-none d-xl-block">
                     <ul>
-                      <li>
-                        <a
-                          @click.prevent="handleSearch"
-                          href="#"
-                          class="search-open-btn"
-                        >
-                          <svg
-                            width="20"
-                            height="20"
-                            viewBox="0 0 20 20"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z"
-                              stroke="currentColor"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                            <path
-                              d="M19.0002 19.0002L17.2002 17.2002"
-                              stroke="currentColor"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </a>
-                      </li>
+                 
                       <li>
                         <button
-                        @click="handleOffCanvas"
+                          @click="handleOffCanvas"
                           type="button"
                           :class="`hamburger-btn ${
-                            header_solid || header_black ? 'hamburger-btn-black' : ''
+                            header_solid || header_black
+                              ? 'hamburger-btn-black'
+                              : ''
                           } offcanvas-open-btn`"
                         >
                           <span></span>
@@ -100,11 +73,13 @@
                   </div>
                   <div class="header__hamburger ml-50 d-xl-none">
                     <button
-                     @click="handleOffCanvas"
+                      @click="handleOffCanvas"
                       type="button"
                       :class="`hamburger-btn ${
-                            header_solid || header_black ? 'hamburger-btn-black' : ''
-                          } offcanvas-open-btn`"
+                        header_solid || header_black
+                          ? 'hamburger-btn-black'
+                          : ''
+                      } offcanvas-open-btn`"
                     >
                       <span></span>
                       <span></span>
@@ -125,11 +100,11 @@
   </header>
 
   <!-- off canvas full start -->
-  <off-canvas-main ref="off_canvas" v-if="!commonOffcanvas"/>
+  <off-canvas-main ref="off_canvas" v-if="!commonOffcanvas" />
   <!-- off canvas full end -->
 
   <!-- commonOffcanvas start -->
-  <off-canvas-six ref="off_canvas" v-if="commonOffcanvas"/>
+  <off-canvas-six ref="off_canvas" v-if="commonOffcanvas" />
   <!-- commonOffcanvas end -->
 </template>
 
@@ -138,9 +113,9 @@ import menus from "./menus.vue";
 import HeaderInfo from "./component/HeaderInfo.vue";
 import Language from "./component/Language.vue";
 import SearchPopup from "./component/SearchPopup.vue";
-import { useUtilsStore } from '~~/store/utils';
-import OffCanvasMain from '~~/components/common/off-canvas/OffCanvasMain.vue';
-import OffCanvasSix from '~~/components/common/off-canvas/OffCanvasSix.vue';
+import { useUtilsStore } from "~~/store/utils";
+import OffCanvasMain from "~~/components/common/off-canvas/OffCanvasMain.vue";
+import OffCanvasSix from "~~/components/common/off-canvas/OffCanvasSix.vue";
 
 export default {
   data() {
@@ -197,9 +172,9 @@ export default {
       }
     },
   },
-  setup () {
+  setup() {
     const utils = useUtilsStore();
-    return {utils}
+    return { utils };
   },
   mounted() {
     window.addEventListener("scroll", this.handleSticky);
@@ -207,13 +182,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-.fontmenu {
- color: black !important;
- outline-color: black;
- margin-right: 50px;
-
-  }
-
-</style>
+<style scoped></style>
