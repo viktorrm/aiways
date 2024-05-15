@@ -97,8 +97,8 @@ export default {
   rotate: 15deg;
 }
 .text_in_photo .desc {
-  margin-top: 30px;
-  margin-right: 40%;
+  margin-top: 40px;
+  margin-right: 20%;
   font-size: 1.5vw;
   rotate: 15deg;
 }
