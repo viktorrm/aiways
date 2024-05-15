@@ -75,12 +75,15 @@ export default {
 }
 .text_in_photo {
   position: absolute;
-  width: 40%;
-  height: 600px;
-  right: 0%;
-  top: -350px;
+  width: 43%;
+  height: 359px;
+  right: -15px;
+  top: -98px;
   rotate: -15deg;
   border-bottom-left-radius: 50px;
+  padding: 20px;
+  line-height: 25px;
+  background: white;
   @media screen and (max-width: 550px) {
     display: none !important;
   }
@@ -90,15 +93,16 @@ export default {
 }
 
 .title_in_photo {
-  margin-top: 350px;
-  margin-right: 40%;
+  margin-top: 170px;
+  margin-right: 0;
   margin-left: 20px;
   font-size: 1.9vw;
   rotate: 15deg;
 }
 .text_in_photo .desc {
-  margin-top: 40px;
-  margin-right: 20%;
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 10%;
   font-size: 1.5vw;
   rotate: 15deg;
 }
