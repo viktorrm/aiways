@@ -14,7 +14,7 @@
     </div>
 
     <div class="about__btn">
-      <nuxt-link href="/about" class="tp-btn">Discover Now</nuxt-link>
+      <nuxt-link href="/about" class="tp-btn">Descubre más</nuxt-link>
     </div>
   </section>
 

@@ -29,9 +29,7 @@
                   {{ item.pre_title }}
                 </span>
                 <h3 class="slider__title" v-html="item.title"></h3>
-                <!-- <div class="slider__form">
-                  <SliderForm />
-                </div> -->
+             
               </div>
             </div>
           </div>
@@ -46,11 +44,10 @@
 
 <script>
 // internal
-import bg_1 from "~/assets/img/slider/u5banner.jpg";
+import bg_1 from "~/assets/aiways/slider/videou6.mp4";
 import bg_2 from "~/assets/img/slider/slider-2.jpg";
 import bg_3 from "~/assets/img/slider/slider-3.jpg";
-/* import SliderForm from "~~/components/forms/SliderForm.vue"; */
-// external
+
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Navigation, EffectFade } from "swiper";
 /* import  StartUpCounter  from "~/components/hero-banner/HomeHero.vue"; */
@@ -59,8 +56,7 @@ export default {
   components: {
     Swiper,
     SwiperSlide,
- /*    SliderForm, */
-/*     StartUpCounter, */
+
   },
   data() {
     return {
