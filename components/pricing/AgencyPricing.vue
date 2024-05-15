@@ -98,9 +98,7 @@
 
 <script>
 // price icon
-import price_icon_1 from "~/assets/img/price/5/price-icon-1.png";
-import price_icon_2 from "~/assets/img/price/5/price-icon-2.png";
-import price_icon_3 from "~/assets/img/price/5/price-icon-3.png";
+
 import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
 import { specs } from "~~/mixins/u5_Interior_Exterior.js";
 
@@ -122,6 +120,7 @@ export default {
     setActiveTab(tab, i) {
       this.tabSpecs = i === 0 ? this.specs.interior : this.specs.exterior;
       this.activeTab = tab;
+      this.selectedSpec = this.tabSpecs[0];
     },
   },
 };

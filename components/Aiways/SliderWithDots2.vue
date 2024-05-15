@@ -1,15 +1,15 @@
 <template>
   <section class="portfolio__area pb-60 fix">
     <div class="container">
-      <div class="row">
-        
-      </div>
+      <div class="row"></div>
       <div class="row justify-content-center">
         <div class="col-xl-12">
           <div class="portfolio__details-slider p-relative pl-50 pr-50">
             <Carousel
               ref="detailsSlider"
               :items-to-show="1"
+              :autoplay="2000"
+              :transition="900"
               :wrap-around="true"
               :snapAlign="'center'"
               :breakpoints="{
@@ -67,3 +67,11 @@ export default {
   },
 };
 </script>
+<style lang="scss">
+.portfolio__details-slider
+  .carousel__pagination
+  li
+  .carousel__pagination-button.carousel__pagination-button--active {
+  background-color: #00cfb4;
+}
+</style>
