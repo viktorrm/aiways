@@ -36,9 +36,9 @@
                 v-for="(tab, i) in [specs.interior, specs.exterior]"
                 :key="i"
                 :class="`${
-                  activeTab === `tab${2 - i}` ? 'selected_tab' : ''
-                } w-100 tab-button${2 - i}`"
-                @click="setActiveTab(`tab${2 - i}`, i)"
+                  activeTab === `tab${1 + i}` ? 'selected_tab' : ''
+                } w-100 tab-button${1 + i}`"
+                @click="setActiveTab(`tab${1 + i}`, i)"
               >
                 {{ i === 0 ? "Interior" : "Exterior" }}
               </button>
@@ -246,7 +246,7 @@ export default {
   padding: 10px;
   background-color: white;
   border: none;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px 0px 0px 10px;
   outline: none;
 }
 .tab-button2 {
@@ -254,7 +254,8 @@ export default {
   padding: 10px;
   background-color: white;
   border: none;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 0px 10px 10px 0px;
+
   outline: none;
 }
 
