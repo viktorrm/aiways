@@ -84,7 +84,7 @@
           <div class="desc mb-50">
             <img v-if="selectedSpec" :src="selectedSpec.img" alt="" />
             <div class="title_in_photo mt-40 text-center">
-              {{ selectedSpec.title }}
+              {{ selectedSpec.desc?.titulo }}
             </div>
             <div class="mt-40 description text-left">
               {{ selectedSpec.desc?.desc }}
@@ -266,6 +266,7 @@ export default {
   width: 100%; /* Adjust width as needed */
   height: auto; /* Adjust height as needed */
   overflow: hidden; /* Ensure image does not overflow container */
+  line-height: 30px;
 }
 .desc img {
   width: 100%; /* Make the image fill the width of the container */
