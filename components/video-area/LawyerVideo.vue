@@ -3,19 +3,17 @@
     :class="`include-bg ${el_style ? 'mb-60' : ''}`"
     :style="{ backgroundImage: `url(${img1})` }"
   >
-    <div class="pt-100">
-      <!--       <div class="inclinado">
-        <div class="inclinado_item"></div>
-      </div> -->
-      <div class="container right-align inclinado">
-        <div class="about__btn text-black inclinado_item">
-          <div class="mb-20 mt-200">Your Way. <b>Just Electric.</b></div>
-          <span
-            >Experience the unexpected spaciousness, the unparalleled comfort
-            and versatility of the Aiways U5.</span
-          >
+    <div class="contain">
+      <div class="text-black text_in_photo">
+        <div class="title_in_photo">Your Way. <b>Just Electric.</b></div>
+        <div class="desc">
+          Experience the unexpected spaciousness, the unparalleled comfort and
+          versatility of the Aiways U5.
         </div>
       </div>
+    </div>
+    <div class="about__btn">
+      <nuxt-link href="/about" class="tp-btn">Discover Now</nuxt-link>
     </div>
   </section>
 
@@ -58,7 +56,7 @@ export default {
   background-size: cover !important;
 }
 .right-align {
-  text-align: right;
+  text-align: left;
 }
 .about__btn {
   font-size: 35px !important;
@@ -71,33 +69,45 @@ export default {
 .tp-btn {
   background: #00cfb4;
 }
-.inclinado {
-  background-color: white;
+.contain {
   position: relative;
-  z-index: 2;
-  bottom: 21.7vw;
-  left: 30.95vw;
-  transform: rotate(345deg);
-  width: 41vw;
-  height: 24vw;
-  border-bottom-left-radius: 55px;
+}
+.text_in_photo {
+  position: absolute;
+  width: 55%;
+  height: 600px;
+  right: -9%;
+  top: -350px;
+  rotate: -15deg;
+  border-bottom-left-radius: 50px;
+  @media screen and (max-width: 550px) {
+    display: none !important;
+  }
+  padding: 20px;
+  line-height: 25px;
+  background: white;
 }
 
-.inclinado_item {
-  transform: rotate(15deg);
-  margin: 8vw 2.85vw 0 3vw;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: start;
+.title_in_photo {
+  margin-top: 350px;
+  margin-right: 40%;
+  margin-left: 20px;
+  font-size: 1.9vw;
+  rotate: 15deg;
 }
-
-.inclinado_item span {
-  font-size: 20px;
-  text-align: left;
+.text_in_photo .desc {
+  margin-top: 30px;
+  margin-right: 40%;
+  font-size: 1.5vw;
+  rotate: 15deg;
 }
-
-img {
-  width: 100%;
-  height: 800px;
+.about__btn {
+  position: relative;
+  top: 70%;
+  left: 75%;
+}
+.tp-btn {
+  padding: 15px 40px;
+  border-radius: 5px;
 }
 </style>
