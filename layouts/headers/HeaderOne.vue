@@ -26,7 +26,7 @@
                     />
                     <img
                       class="logo-dark"
-                      src="~/assets/img/logo/logo-black.svg"
+                      src="~/assets/img/logo/aiways-logo.svg"
                       alt="logo"
                     />
                   </nuxt-link>
@@ -53,36 +53,7 @@
                 >
                   <div class="header__action d-none d-xl-block">
                     <ul>
-                      <li>
-                        <a
-                          @click.prevent="handleSearch"
-                          href="#"
-                          class="search-open-btn"
-                        >
-                          <svg
-                            width="20"
-                            height="20"
-                            viewBox="0 0 20 20"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z"
-                              stroke="currentColor"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                            <path
-                              d="M19.0002 19.0002L17.2002 17.2002"
-                              stroke="currentColor"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </a>
-                      </li>
+                 
                       <li>
                         <button
                           @click="handleOffCanvas"

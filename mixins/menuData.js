@@ -13,26 +13,26 @@ export default {
           id: 2,
           title: "U6",
           megaMenu: false,
-          link: "about",
+          link: "/u6",
         },
         {
           id: 3,
           megaMenu: false,
           title: "Servicio",
-          link: "/portfolio",
+          link: "/servicio",
         },
         {
           id: 4,
           megaMenu: false,
           title: "Donde estamos",
-          link: "/blog",
+          link: "/DondeEstamos",
         },
 
         {
           megaMenu: false,
           id: 6,
           title: "Acerca de",
-          link: "/contact",
+          link: "/AcercaDe",
         },
       ],
     };

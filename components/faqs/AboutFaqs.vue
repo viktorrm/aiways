@@ -1,8 +1,10 @@
 <template>
   <section class="faq__area p-relative">
     <div class="container">
-      <div class="row">
-    <div class="col text-center "> <H1 class="centrar">Tren de potencia y paquete de baterías</H1></div> </div> </div>
+      <div class="">
+    <div class=" text-center "> <H1 class="centrar">Tren de potencia y paquete de baterías</H1></div> 
+    </div> 
+    </div>
     <div class="faq__video" :style="{ backgroundImage: `url(${bg})` }">
    <!--  -->
     </div>
