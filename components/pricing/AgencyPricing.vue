@@ -36,9 +36,9 @@
                 v-for="(tab, i) in [specs.interior, specs.exterior]"
                 :key="i"
                 :class="`${
-                  activeTab === `tab${2 - i}` ? 'selected_tab' : ''
-                } w-100 tab-button${2 - i}`"
-                @click="setActiveTab(`tab${2 - i}`, i)"
+                  activeTab === `tab${1 + i}` ? 'selected_tab' : ''
+                } w-100 tab-button${1 + i}`"
+                @click="setActiveTab(`tab${1 + i}`, i)"
               >
                 {{ i === 0 ? "Interior" : "Exterior" }}
               </button>
@@ -84,7 +84,7 @@
           <div class="desc mb-50">
             <img v-if="selectedSpec" :src="selectedSpec.img" alt="" />
             <div class="title_in_photo mt-40 text-center">
-              {{ selectedSpec.title }}
+              {{ selectedSpec.desc?.titulo }}
             </div>
             <div class="mt-40 description text-left">
               {{ selectedSpec.desc?.desc }}
@@ -112,113 +112,11 @@ export default {
       specs,
       selectedSpec: {},
       activeTab: "tab1",
-      pricing_data: [
-        {
-          id: "nav-monthly",
-          pricing_items: [
-            {
-              icon: price_icon_1,
-              price: 0,
-              price_text: "free",
-              text: "Perfect Plan for Starters.",
-              tag: "Starter",
-              feature_text: "Includes:",
-              lists: [
-                "Full Access Library",
-                "Business & Financ Analysing",
-                "Exclusive Templates",
-                "24 hour support",
-              ],
-            },
-            {
-              has_popular: true,
-              icon: price_icon_2,
-              price: 150,
-              price_text: "month",
-              text: "Collaborate Professionally.",
-              tag: "Commercial",
-              feature_text: "Everything in Personal Plan, plus",
-              lists: [
-                "Full Access Library",
-                "Business & Financ Analysing",
-                "Exclusive Templates",
-                "24 hour support",
-                "Customer Managemet",
-              ],
-            },
-            {
-              icon: price_icon_3,
-              price: 220,
-              price_text: "month",
-              text: "Collaborate Professionally.",
-              tag: "Commercial",
-              feature_text: "Everything in Personal Plan, plus",
-              lists: [
-                "User provisioning (SCIM)",
-                "Databases with rich property types",
-                "Custom guest editors",
-                "24 hour support",
-                "Customer Managemet",
-              ],
-            },
-          ],
-        },
-        {
-          id: "nav-yearly",
-          active: true,
-          pricing_items: [
-            {
-              icon: price_icon_1,
-              price: 0,
-              price_text: "free",
-              text: "Perfect Plan for Starters.",
-              tag: "Starter",
-              feature_text: "Includes:",
-              lists: [
-                "Full Access Library",
-                "Business & Financ Analysing",
-                "Exclusive Templates",
-                "24 hour support",
-              ],
-            },
-            {
-              has_popular: true,
-              icon: price_icon_2,
-              price: 198,
-              price_text: "month",
-              text: "Collaborate Professionally.",
-              tag: "Commercial",
-              feature_text: "Everything in Personal Plan, plus",
-              lists: [
-                "Full Access Library",
-                "Business & Financ Analysing",
-                "Exclusive Templates",
-                "24 hour support",
-                "Customer Managemet",
-              ],
-            },
-            {
-              icon: price_icon_3,
-              price: 298,
-              price_text: "month",
-              text: "Collaborate Professionally.",
-              tag: "Commercial",
-              feature_text: "Everything in Personal Plan, plus",
-              lists: [
-                "User provisioning (SCIM)",
-                "Databases with rich property types",
-                "Custom guest editors",
-                "24 hour support",
-                "Customer Managemet",
-              ],
-            },
-          ],
-        },
-      ],
     };
   },
   mounted() {
     this.tabSpecs = this.specs.interior;
+    this.selectedSpec = this.specs.interior[0];
   },
   methods: {
     setActiveTab(tab, i) {
@@ -246,7 +144,7 @@ export default {
   padding: 10px;
   background-color: white;
   border: none;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px 0px 0px 10px;
   outline: none;
 }
 .tab-button2 {
@@ -254,7 +152,8 @@ export default {
   padding: 10px;
   background-color: white;
   border: none;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 0px 10px 10px 0px;
+
   outline: none;
 }
 
@@ -266,6 +165,7 @@ export default {
   width: 100%; /* Adjust width as needed */
   height: auto; /* Adjust height as needed */
   overflow: hidden; /* Ensure image does not overflow container */
+  line-height: 30px;
 }
 .desc img {
   width: 100%; /* Make the image fill the width of the container */
