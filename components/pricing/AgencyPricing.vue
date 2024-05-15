@@ -84,7 +84,7 @@
           <div class="desc mb-50">
             <img v-if="selectedSpec" :src="selectedSpec.img" alt="" />
             <div class="title_in_photo mt-40 text-center">
-              {{ selectedSpec.title }}
+              {{ selectedSpec.desc?.titulo }}
             </div>
             <div class="mt-40 description text-left">
               {{ selectedSpec.desc?.desc }}
