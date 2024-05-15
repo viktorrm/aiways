@@ -50,38 +50,24 @@
                 <div class="row">
                   <div class="">
                     <div class="faq__tab-2 tp-tab mb-50">
-                      <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li
-                          class="nav-item"
-                          role="presentation"
-                          v-for="(item, index) in tabSpecs"
-                          :key="index"
-                        >
-                          <!-- <button
-                            class="nav-link active w-100"
-                            id="general-tab"
+                      <ul
+                        class="nav justify-content-center nav-tabs"
+                        id="myTab"
+                        role="tablist"
+                      >
+                        <li v-for="(item, index) in tabSpecs" :key="index">
+                          <button
+                            :class="`nav-link ${index === 0 ? 'active' : ''}`"
+                            :id="`${item.title}-tab`"
                             data-bs-toggle="tab"
-                            data-bs-target="#general"
+                            :data-bs-target="`#${item.title}`"
                             type="button"
                             role="tab"
-                            aria-controls="general"
+                            :aria-controls="`${item.title}`"
                             aria-selected="true"
                             @click="selectedSpec = item"
                           >
                             {{ item.title }}
-                          </button> -->
-                          <button
-                            class="nav-link active w-100"
-                            id="general-tab"
-                            data-bs-toggle="tab"
-                            data-bs-target="#general"
-                            type="button"
-                            role="tab"
-                            aria-controls="general"
-                            aria-selected="true"
-                            @click="selectedSpec = item"
-                          >
-                            asd
                           </button>
                         </li>
                       </ul>
@@ -97,10 +83,10 @@
         <div class="col-xxl-12">
           <div class="desc mb-50">
             <img v-if="selectedSpec" :src="selectedSpec.img" alt="" />
-            <div class="title_in_photo mt-20 text-center">
+            <div class="title_in_photo mt-40 text-center">
               {{ selectedSpec.title }}
             </div>
-            <div class="mt-20 description text-left">
+            <div class="mt-40 description text-left">
               {{ selectedSpec.desc?.desc }}
             </div>
           </div>
@@ -284,7 +270,8 @@ export default {
 .desc img {
   width: 100%; /* Make the image fill the width of the container */
   height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure proper alignment */
+  display: block;
+  border-top-left-radius: 150px; /* Ensure proper alignment */
 }
 
 .title_in_photo {
@@ -293,5 +280,25 @@ export default {
 
 .description {
   font-size: 25px;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.faq__tab-2 {
+  border-bottom: none;
+}
+.fcolor {
+  color: #00cfb4;
+}
+.faq__tab-2 .nav-link.active {
+  background-color: #ffffff;
+  color: #00cfb4;
+}
+.faq__tab-2 .nav-link::after {
+  background-color: #00cfb4;
+  color: #00cfb4;
 }
 </style>
