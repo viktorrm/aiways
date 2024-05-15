@@ -6,10 +6,9 @@
       <div class="row">
         <div class="col-xxl-12">
           <div class="section__title-wrapper-5 mb-50 text-center">
-         <!--    <span class="section__title-pre-5">Exterior expresivo,
-Impresionante interior.</span> -->
-            <h3 class="section__title-5">Exterior expresivo,
-Impresionante interior.</h3>
+            <h3 class="section__title-5">
+              Exterior expresivo, Impresionante interior.
+            </h3>
           </div>
           <div class="pt-25 pb-25 text-center"> <p>En el U5, que viene completamente equipado de serie, puedes causar una gran impresión mientras disfrutas del máximo confort. Su diseño elegante pero dinámico es tanto estéticamente agradable como atemporal.
 
@@ -34,7 +33,7 @@ El interior presume de un estilo de diseño minimalista y materiales sofisticado
                     role="tab"
                     aria-controls="nav-monthly"
                     aria-selected="true"
-                    >Exterior   </span
+                    >Exterior</span
                   >
                   <input type="checkbox" id="price-tab-check" />
                   <i></i>
@@ -46,89 +45,14 @@ El interior presume de un estilo de diseño minimalista y materiales sofisticado
                     role="tab"
                     aria-controls="nav-yearly"
                     aria-selected="false"
-                    >Interior </span
-                  >
+                    >Interior
+                  </span>
                 </label>
               </div>
             </nav>
           </div>
         </div>
       </div>
-      <!-- <div class="row">
-        <div class="col-xxl-12">
-          <div
-            class="tab-content"
-            id="nav-tabContent"
-            data-sal="slide-up" data-sal-delay="130" data-sal-duration="1000"
-          >
-            <div
-              v-for="(item, i) in pricing_data"
-              :key="i"
-              :class="`tab-pane fade ${item.active ? 'show active' : ''}`"
-              :id="`${item.id}`"
-              role="tabpanel"
-              :aria-labelledby="`${item.id}-tab`"
-              tabIndex="0"
-            >
-              <div class="row">
-                <div
-                  v-for="(item_box, i) in item.pricing_items"
-                  :key="i"
-                  class="col-xxl-4 col-xl-4 col-lg-4 col-md-6"
-                >
-                  <div
-                    :class="`pricing__item-5 d-flex flex-column ${
-                      item_box.has_popular ? 'has-popular' : ''
-                    } mb-40`"
-                  >
-                    <div
-                      v-if="item_box.has_popular"
-                      class="pricing__popular"
-                    >
-                      <p>MOST POPULAR</p>
-                    </div>
-
-                    <div class="pricing__top-5 grey-bg-10 p-relative">
-                      <div class="pricing__icon-5">
-                        <img :src="item_box.icon" alt="icon" />
-                      </div>
-                      <div class="pricing__title-wrapper">
-                        <h3 class="pricing__title-5">
-                          ${{item_box.price}}
-                          <span>/{{item_box.price_text}}</span>
-                        </h3>
-                        <p>{{ item_box.text }}</p>
-                      </div>
-                      <div class="pricing__tag-5">
-                        <span>{{ item_box.tag }}</span>
-                      </div>
-                    </div>
-                    <div class="pricing__content-5">
-                      <div
-                        class="pricing__content-5-inner d-flex flex-column justify-content-between"
-                      >
-                        <div class="pricing__feature-5">
-                          <p>{{ item_box.feature_text }}</p>
-                          <ul>
-                            <li v-for="(l, i) in item_box.lists" :key="i">
-                              {{ l }}
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="pricing__btn-5">
-                          <nuxt-link href="/contact" class="tp-btn-grey w-100">
-                            Choose Plan
-                          </nuxt-link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
     </div>
   </section>
 </template>
