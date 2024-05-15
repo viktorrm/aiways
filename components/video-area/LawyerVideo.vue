@@ -12,10 +12,10 @@
         </div>
       </div>
     </div>
-    <!--
+
     <div class="about__btn">
       <nuxt-link href="/about" class="tp-btn">Discover Now</nuxt-link>
-    </div> -->
+    </div>
   </section>
 
   <section
@@ -77,7 +77,7 @@ export default {
   position: absolute;
   width: 40%;
   height: 600px;
-  right: 3%;
+  right: 0%;
   top: -350px;
   rotate: -15deg;
   border-bottom-left-radius: 50px;
