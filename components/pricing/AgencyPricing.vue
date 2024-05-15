@@ -112,113 +112,11 @@ export default {
       specs,
       selectedSpec: {},
       activeTab: "tab1",
-      pricing_data: [
-        {
-          id: "nav-monthly",
-          pricing_items: [
-            {
-              icon: price_icon_1,
-              price: 0,
-              price_text: "free",
-              text: "Perfect Plan for Starters.",
-              tag: "Starter",
-              feature_text: "Includes:",
-              lists: [
-                "Full Access Library",
-                "Business & Financ Analysing",
-                "Exclusive Templates",
-                "24 hour support",
-              ],
-            },
-            {
-              has_popular: true,
-              icon: price_icon_2,
-              price: 150,
-              price_text: "month",
-              text: "Collaborate Professionally.",
-              tag: "Commercial",
-              feature_text: "Everything in Personal Plan, plus",
-              lists: [
-                "Full Access Library",
-                "Business & Financ Analysing",
-                "Exclusive Templates",
-                "24 hour support",
-                "Customer Managemet",
-              ],
-            },
-            {
-              icon: price_icon_3,
-              price: 220,
-              price_text: "month",
-              text: "Collaborate Professionally.",
-              tag: "Commercial",
-              feature_text: "Everything in Personal Plan, plus",
-              lists: [
-                "User provisioning (SCIM)",
-                "Databases with rich property types",
-                "Custom guest editors",
-                "24 hour support",
-                "Customer Managemet",
-              ],
-            },
-          ],
-        },
-        {
-          id: "nav-yearly",
-          active: true,
-          pricing_items: [
-            {
-              icon: price_icon_1,
-              price: 0,
-              price_text: "free",
-              text: "Perfect Plan for Starters.",
-              tag: "Starter",
-              feature_text: "Includes:",
-              lists: [
-                "Full Access Library",
-                "Business & Financ Analysing",
-                "Exclusive Templates",
-                "24 hour support",
-              ],
-            },
-            {
-              has_popular: true,
-              icon: price_icon_2,
-              price: 198,
-              price_text: "month",
-              text: "Collaborate Professionally.",
-              tag: "Commercial",
-              feature_text: "Everything in Personal Plan, plus",
-              lists: [
-                "Full Access Library",
-                "Business & Financ Analysing",
-                "Exclusive Templates",
-                "24 hour support",
-                "Customer Managemet",
-              ],
-            },
-            {
-              icon: price_icon_3,
-              price: 298,
-              price_text: "month",
-              text: "Collaborate Professionally.",
-              tag: "Commercial",
-              feature_text: "Everything in Personal Plan, plus",
-              lists: [
-                "User provisioning (SCIM)",
-                "Databases with rich property types",
-                "Custom guest editors",
-                "24 hour support",
-                "Customer Managemet",
-              ],
-            },
-          ],
-        },
-      ],
     };
   },
   mounted() {
     this.tabSpecs = this.specs.interior;
+    this.selectedSpec = this.specs.interior[0];
   },
   methods: {
     setActiveTab(tab, i) {
