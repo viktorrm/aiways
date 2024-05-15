@@ -266,6 +266,7 @@ export default {
   width: 100%; /* Adjust width as needed */
   height: auto; /* Adjust height as needed */
   overflow: hidden; /* Ensure image does not overflow container */
+  line-height: 30px;
 }
 .desc img {
   width: 100%; /* Make the image fill the width of the container */
