@@ -1,7 +1,7 @@
 <template>
 <div class="container">
       <div class="">
-    <div class=" text-center mt-100 mb-5 "> <H1 class="centrar">Especificaciones Técnicas</H1></div> 
+    <div class=" text-center mt-100 mb-5 "> <H1 class="centrar">Especificaciones Técnicas prueba</H1></div> 
    
     </div> 
     </div>
@@ -41,7 +41,7 @@
           </div>
           <div> <h5 class="fcolor"> Descarga el pdf</h5></div>
       <div class="row"> 
-        <div class="col-6 mt-10 "> <h5 > Potencia del motor</h5>  <h3 class="fcolor mb-4">150 kW / 204 hp</h3>
+        <div class="col-6 mt-10 "> <h5 > prueba</h5>  <h3 class="fcolor mb-4">150 kW / 204 hp</h3>
             <div class="mb-4"><h5> Par máximo</h5>  <h3 class="fcolor">310 Nm</h3></div>
             <div class="mb-4"><h5> 0-100km/h</h5>  <h3 class="fcolor">7,8 seg</h3></div>
 <h5>Peso</h5>  <h3 class="fcolor">1,770 kg</h3>
