@@ -4,6 +4,15 @@ import spec2 from "~/assets/img/aiways/carsSpecs/u5/spec2.jpg";
 export const specs = {
   interior: [
     {
+      title: "Comfortable seats",
+      desc: {
+        titulo: "Safe and comfortable",
+        desc: "All passengers in the PRIME version of the U5 sit on a leather/imitation leather combination that ensures stable hold from all sides.The driver can look forward to a seat that is adjustable in six directions (four directions in the case of the front passenger seat), not to mention a lumbar support that is electronically adjustable in two directions. Upholstered central armrests provide even more comfort, in both the front and back. The back seats can be folded in a 60 : 40 split. By raising the load floor, it is possible to create a flat compartment with a capacity of 1,543 litres. And with the I-SIZE child seat attachment units, the U5 offers extra safety for the little ones.",
+      },
+    },
+  ],
+  exterior: [
+    {
       title: "Design",
       desc: {
         titulo: "Proof that big can be beautiful",
@@ -42,15 +51,6 @@ export const specs = {
         desc: "In the PRIME version, the electric boot lid opens at the push of a button; it is even contactless and can be activated with a simple foot movement beneath the rear apron. As there is no loading sill, loading/unloading is easier and more straightforward than ever before.",
       },
       img: spec1,
-    },
-  ],
-  exterior: [
-    {
-      title: "Comfortable seats",
-      desc: {
-        titulo: "Safe and comfortable",
-        desc: "All passengers in the PRIME version of the U5 sit on a leather/imitation leather combination that ensures stable hold from all sides.The driver can look forward to a seat that is adjustable in six directions (four directions in the case of the front passenger seat), not to mention a lumbar support that is electronically adjustable in two directions. Upholstered central armrests provide even more comfort, in both the front and back. The back seats can be folded in a 60 : 40 split. By raising the load floor, it is possible to create a flat compartment with a capacity of 1,543 litres. And with the I-SIZE child seat attachment units, the U5 offers extra safety for the little ones.",
-      },
     },
   ],
 };
