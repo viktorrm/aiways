@@ -120,7 +120,7 @@ export default {
   },
   methods: {
     setActiveTab(tab, i) {
-      this.tabSpecs = i === 1 ? this.specs.interior : this.specs.exterior;
+      this.tabSpecs = i === 0 ? this.specs.interior : this.specs.exterior;
       this.activeTab = tab;
     },
   },

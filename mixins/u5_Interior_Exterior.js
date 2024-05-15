@@ -1,5 +1,8 @@
 import spec1 from "~/assets/img/aiways/carsSpecs/u5/spec1.jpg";
 import spec2 from "~/assets/img/aiways/carsSpecs/u5/spec2.jpg";
+import exteriorruedas from "~/assets/img/aiways/carsSpecs/u5/exteriorruedas.jpg";
+import exteriortecho from "~/assets/img/aiways/carsSpecs/u5/exteriortecho.jpg";
+import exteriorpuerta from "~/assets/img/aiways/carsSpecs/u5/exteriorpuerta.jpg";
 
 export const specs = {
   interior: [
@@ -11,6 +14,7 @@ export const specs = {
       },
     },
   ],
+
   exterior: 
   [
     {
@@ -22,36 +26,36 @@ export const specs = {
       img: spec1,
     },
     {
-      title: "Design",
+      title: "Luces delanteras y traseras",
       desc: {
         titulo: "Luz en el centro de atención",
         desc: "Los faros LED con forma de L y las luces traseras LED, que están integradas en toda la parte trasera, son atractivos por sí mismos. Gracias a su diseño único de múltiples capas, se integran perfectamente en el exterior del vehículo.",
-      }
+      },
       img: spec2,
     },
     {
-      title: "Wheels",
+      title: "Llantas",
       desc: {
         titulo: "Llantas de aleación",
         desc: 'En la configuración XCITE, las llantas de aleación de 17" llenan el espacio entre el automóvil y la carretera; la versión PRIME cuenta con llantas de aleación de dos tonos de 19" con neumáticos optimizados aerodinámicamente.',
       },
-      img: spec1,
+      img: exteriorruedas,
     },
     {
-      title: "Roof",
+      title: "Techo",
       desc: {
-        titulo: "Roof and rails",
-        desc: "Thanks to built-in roof rails, the car can carry up to 75 kg of extra baggage. The rails either come in black or match the colour of the car's paintwork. What's more, dual roof spoilers ensure optimum aerodynamics, not to mention a streamlined appearance.",
+        titulo: "Techo y rieles",
+        desc: "Gracias a los rieles de techo integrados, el automóvil puede llevar hasta 75 kg de equipaje adicional. Los rieles vienen en negro o combinan con el color de la pintura del automóvil. Además, los alerones dobles en el techo garantizan una aerodinámica óptima, además de una apariencia aerodinámica.",
       },
-      img: spec1,
+      img: exteriortecho,
     },
     {
-      title: "Boot",
+      title: "Maletero",
       desc: {
-        titulo: "Touchless opening",
-        desc: "In the PRIME version, the electric boot lid opens at the push of a button; it is even contactless and can be activated with a simple foot movement beneath the rear apron. As there is no loading sill, loading/unloading is easier and more straightforward than ever before.",
+        titulo: "Apertura sin contacto",
+        desc: "En la versión PRIME, la tapa del maletero eléctrico se abre con solo pulsar un botón; incluso es sin contacto y se puede activar con un simple movimiento del pie debajo del parachoques trasero. Como no hay umbral de carga, cargar/descargar es más fácil y sencillo que nunca.",
       },
-      img: spec1,
+      img: exteriorpuerta
     },
   ],
 };
