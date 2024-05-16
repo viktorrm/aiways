@@ -26,9 +26,6 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <!--  -->
-
-        <!--  -->
         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
           <div class="pricing__tab-nav tp-tab mb-50 mx-auto">
             <div class="tab-container">
@@ -82,7 +79,25 @@
       <div class="row">
         <div class="col-xxl-12">
           <div class="desc mb-50">
-            <img v-if="selectedSpec" :src="selectedSpec.img" alt="" />
+            <img
+              v-if="selectedSpec && selectedSpec.img"
+              :src="selectedSpec.img"
+              alt=""
+            />
+            <video
+              v-if="selectedSpec && selectedSpec.video"
+              class="video w-100"
+              id="video"
+              :src="selectedSpec.video"
+              ref="video"
+              width="800"
+              height="400"
+              autoplay
+              controls
+              loop
+              muted
+              style="object-fit: cover"
+            ></video>
             <div class="title_in_photo mt-40 text-center">
               {{ selectedSpec.desc?.titulo }}
             </div>
@@ -97,10 +112,8 @@
 </template>
 
 <script>
-// price icon
-
 import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
-import { specs } from "~~/mixins/u5_Interior_Exterior.js";
+import { specs } from "~~/mixins/specs2.js";
 
 export default {
   mixins: [SalScrollAnimationMixin],
@@ -168,11 +181,14 @@ export default {
 }
 .desc img {
   width: 100%; /* Make the image fill the width of the container */
-  height: auto; /* Maintain aspect ratio */
   display: block;
   border-top-left-radius: 150px; /* Ensure proper alignment */
 }
-
+.desc video {
+  width: 100%; /* Make the image fill the width of the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
 .title_in_photo {
   font-size: 48px;
 }
