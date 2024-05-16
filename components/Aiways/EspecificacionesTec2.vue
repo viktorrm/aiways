@@ -59,7 +59,7 @@
 
 <script>
 import SingleFaq from "~~/components/faqs/SingleFaq.vue";
-import { specs } from "~~/mixins/tecSpecs";
+import { specs } from "~~/mixins/tecSpecs2";
 export default {
   components: { SingleFaq },
   methods: {

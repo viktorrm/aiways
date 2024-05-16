@@ -15,7 +15,7 @@
     <div class="contain">
       <div class="text-black text_in_photo_2">
         <div class="title_in_photo2">A tu manera.<b>JSolo eléctrico.</b></div>
-        <div class="desc">
+        <div class="desc2">
           Experimenta la inesperada amplitud, el confort incomparable y la
           versatilidad del Aiways U5.
         </div>
@@ -141,6 +141,7 @@ export default {
     display: none !important;
   }
 }
+
 .font-text {
   padding: 30px;
   font-size: 30px;
@@ -153,15 +154,6 @@ export default {
   font-size: 1.9vw;
   rotate: 15deg;
 }
-
-.title_in_photo2 {
-  rotate: 8deg;
-
-  @media screen and (max-width: 750px) {
-    font-size: 6vw;
-  }
-}
-
 .text_in_photo .desc {
   margin-top: 20px;
   margin-left: 1px;
@@ -171,11 +163,18 @@ export default {
   line-height: 32px;
 }
 
-.desc2 {
+.title_in_photo2 {
+  rotate: 8deg;
+  @media screen and (max-width: 750px) {
+    font-size: 6vw;
+  }
+}
+
+.text_in_photo_2 .desc2 {
   text-align: left !important;
+  margin-left: 1px;
   rotate: 8deg !important;
   margin-top: 30px;
-
   @media screen and (max-width: 750px) {
     font-size: 4vw;
   }

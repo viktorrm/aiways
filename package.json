@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --port=8080",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -21,6 +21,7 @@
     "swiper": "^9.0.2",
     "vue-awesome-swiper": "^5.0.1",
     "vue-easy-lightbox": "^1.11.0",
-    "vue3-carousel": "^0.2.9"
+    "vue3-carousel": "^0.2.9",
+    "vue3-google-map": "^0.20.0"
   }
 }
