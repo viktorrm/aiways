@@ -32,7 +32,7 @@
     :class="`video__area   include-bg ${el_style ? 'mb-60' : ''}`"
     :style="{ backgroundImage: `url(${img2})` }"
   >
-    <div class="desc font-text about__btn2">
+    <div class="font-text title_in_photo3">
       Explora el diseño desde todos los ángulos.
     </div>
     <div class="about__btn2">
@@ -200,5 +200,17 @@ export default {
 
 .include-bg {
   position: relative;
+}
+
+.about__btn2 {
+  position: absolute;
+  bottom: 50%;
+  @media screen and (max-width: 750px) {
+    left: -8%;
+    bottom: 7%;
+  }
+}
+.title_in_photo3 {
+  padding-top: 5%;
 }
 </style>
