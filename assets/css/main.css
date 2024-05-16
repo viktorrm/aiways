@@ -89,17 +89,17 @@ img,
   /**
   @font family declaration
   */
-  --tp-ff-body: 'Inter', sans-serif;
+  --tp-ff-body: 'Open Sans', sans-serif;
   --tp-ff-heading: 'Space Grotesk', sans-serif;
-  --tp-ff-p: 'Inter', sans-serif;
-  --tp-ff-inter: 'Inter', sans-serif;
+  --tp-ff-p: 'Open Sans', sans-serif;
+  --tp-ff-inter: 'Open Sans', sans-serif;
   --tp-ff-roboto: 'Roboto', sans-serif ;
   --tp-ff-oswald: 'Oswald', sans-serif;
   --tp-ff-poppins: 'Poppins', sans-serif;
   --tp-ff-space: 'Space Grotesk', sans-serif;
-  --tp-ff-play: 'Playfair Display', serif;;
-  --tp-ff-syne: 'Syne', sans-serif;;
-  --tp-ff-rajdhani: 'Rajdhani', sans-serif;;
+  --tp-ff-play: 'Playfair Display', serif;
+  --tp-ff-syne: 'Open Sans', sans-serif;
+  --tp-ff-rajdhani: 'Rajdhani', sans-serif;
   --tp-ff-fontawesome: "Font Awesome 6 Pro";
   /**
   @color declaration
