@@ -53,7 +53,6 @@
                 >
                   <div class="header__action d-none d-xl-block">
                     <ul>
-                 
                       <li>
                         <button
                           @click="handleOffCanvas"
@@ -182,4 +181,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.hamburger-btn span {
+  background-color: black;
+}
+</style>
