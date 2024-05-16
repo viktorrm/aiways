@@ -5,28 +5,24 @@
         <div class="col-xxl-12">
           <div class="section__title-wrapper-5 mb-50 text-center">
             <h3 class="section__title-5">
-              Exterior expresivo, Impresionante interior.
+              Tecnologías innovadoras para una seguridad progresiva.
             </h3>
           </div>
           <div class="pt-25 pb-25 text-center">
             <p>
-              En el U5, que viene completamente equipado de serie, puedes causar
-              una gran impresión mientras disfrutas del máximo confort. Su
-              diseño elegante pero dinámico es tanto estéticamente agradable
-              como atemporal. El interior presume de un estilo de diseño
-              minimalista y materiales sofisticados. Prepárate para una variedad
-              de opciones de iluminación, una pantalla táctil suspendida como
-              elemento de control central y un nivel excepcional de amplitud.
-              Gracias a la altura y el espacio para las piernas sin igual en
-              esta clase de vehículos, el concepto de espacio interior se
-              redefine. No es de extrañar que te sientas como en casa en tu U5
-              espectacularmente espacioso.
+              El Aiways U5 combina una gran cantidad de sistemas de seguridad activos y pasivos y características de conveniencia. Viene equipado con doce radares ultrasónicos, cinco cámaras HD, tres radares de onda milimétrica y dos cámaras interiores de serie, lo que permite una visibilidad digital completa.
+
+Los diversos sensores y cámaras detectan carreteras, vehículos, peatones y obstáculos, ayudando a prevenir colisiones. Además, seis airbags y múltiples sistemas avanzados de seguridad ayudan a mantenerlo seguro.
+
+El habitáculo cumple con los requisitos de cinco estrellas de Euro NCAP, con otras características de seguridad que previenen el robo y ayudan en caso de emergencia. Debido al centro de gravedad extremadamente bajo del automóvil, la inclinación lateral se reduce al girar en las curvas. Esto se refleja en un estilo de conducción más ágil y dinámico, pero siempre completamente seguro.
+
+El U5 está listo para la conducción autónoma (L2+).
             </p>
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+      <div class="justify-content-center">
+       
           <div class="pricing__tab-nav tp-tab mb-50 mx-auto">
             <div class="tab-container">
               <button
@@ -74,7 +70,7 @@
               </div>
             </section>
           </div>
-        </div>
+       
       </div>
       <div class="row">
         <div class="col-xxl-12">

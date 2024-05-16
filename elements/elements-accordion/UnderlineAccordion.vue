@@ -4,8 +4,7 @@
       <div class="row">
         <div class="col-xxl-12">
           <div class="tp-section-wrapper-3 mb-30 text-center">
-            <span class="tp-section-subtitle-3">Minimal & Clean Design</span>
-            <h3 class="tp-section-title-3">Underline Accordion</h3>
+        <h3 class="tp-section-title-3">¿Alguna otra consulta?</h3>
           </div>
         </div>
       </div>

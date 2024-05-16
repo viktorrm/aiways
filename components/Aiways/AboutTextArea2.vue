@@ -54,7 +54,7 @@ export default {
 };
 </script>
 <style scoped>
-.align{
+.about__text-title{
   text-align: center;
 }
 </style>
