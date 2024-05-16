@@ -174,7 +174,7 @@ export default {
 }
 
 .title_in_photo {
-  font-size: 48px;
+  font-size: 30px;
 }
 
 .description {

@@ -5,7 +5,7 @@
   >
     <div class="contain">
       <div class="text-black text_in_photo">
-        <div class="title_in_photo">A tu manera.<b>JSolo eléctrico.</b></div>
+        <div class="title_in_photo">A tu manera.<b>Solo eléctrico.</b></div>
         <div class="desc">
           Experimenta la inesperada amplitud, el confort incomparable y la
           versatilidad del Aiways U5.
@@ -22,30 +22,18 @@
       </div>
     </div>
     <div class="about__btn">
-      <nuxt-link href="https://www.aiwaysu5.es/" class="tp-btn"
+      <nuxt-link href="#specs" class="tp-btn"
         >Descubre más</nuxt-link
       >
     </div>
   </section>
 
-  <section
-    :class="`video__area   include-bg ${el_style ? 'mb-60' : ''}`"
-    :style="{ backgroundImage: `url(${img2})` }"
-  >
-    <div class="font-text title_in_photo3">
-      Explora el diseño desde todos los ángulos.
-    </div>
-    <div class="about__btn2">
-      <nuxt-link href="https://www.ai-ways.eu/en/u5/" class="tp-btn"
-        >Descubre más</nuxt-link
-      >
-    </div>
-  </section>
+  
 </template>
 
 <script>
 import img1 from "~/assets/img/aiways/banner-1.jpg";
-import img2 from "~/assets/img/aiways/360-viewer-mobile.jpg";
+import img2 from "~/assets/img/aiways/360-viewer.jpg";
 
 import VideoModal from "../common/modals/VideoModal.vue";
 

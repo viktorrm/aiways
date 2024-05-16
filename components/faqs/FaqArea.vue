@@ -16,9 +16,9 @@
       </div>
     </div>
   </div>
-  <div class="text-center"><img src="/_nuxt/assets/img/carga.jpg" /></div>
   <section class="faq__area pt-100 pb-25">
     <div class="container">
+  <div class="text-center "><img class="w-100" src="/_nuxt/assets/img/carga.jpg" /></div>
       <div class="row">
         <div class="col-xxl-12">
           <div class="faq__tab-2 tp-tab mb-50">

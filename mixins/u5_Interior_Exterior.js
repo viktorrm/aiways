@@ -17,7 +17,7 @@ export const specs = {
       title: "Asientos comfortables",
       desc: {
         titulo: "Seguro y cómodo",
-        desc: "Todos los pasajeros en la versión PRIME del U5 se sientan en una combinación de cuero/imitación de cuero que asegura un soporte estable desde todos los lados. El conductor puede esperar un asiento ajustable en seis direcciones (cuatro direcciones en el caso del asiento del pasajero delantero), sin mencionar un soporte lumbar ajustable electrónicamente en dos direcciones. Los reposabrazos centrales acolchados proporcionan aún más comodidad, tanto en la parte delantera como en la trasera. Los asientos traseros se pueden plegar en una división de 60 : 40. Al elevar el piso de carga, es posible crear un compartimento plano con una capacidad de 1,543 litros. Y con las unidades de sujeción de sillas de auto I-SIZE, el U5 ofrece seguridad adicional para los más pequeños.",
+        desc: "Todos los pasajeros en la versión PRIME del U5 se sientan en una combinación de cuero/imitación de cuero que asegura un soporte estable desde todos los lados. El conductor puede esperar un asiento ajustable en seis direcciones (cuatro direcciones en el caso del asiento del pasajero delantero), sin mencionar un soporte lumbar ajustable electrónicamente en dos direcciones.  Los reposabrazos centrales acolchados proporcionan aún más comodidad, tanto en la parte delantera como en la trasera. Los asientos traseros se pueden plegar en una división de 60 : 40. Al elevar el piso de carga, es posible crear un compartimento plano con una capacidad de 1,543 litros. Y con las unidades de sujeción de sillas de auto I-SIZE, el U5 ofrece seguridad adicional para los más pequeños.",
       },
       img: interiorasientos,
     },

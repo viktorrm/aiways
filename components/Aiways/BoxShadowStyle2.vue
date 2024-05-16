@@ -5,7 +5,7 @@
         </div> -->
         <div class="row">
           <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-              <div class="services__item-style-2  mb-30 transition-3">
+              <div class=" mb-30 ">
         
                 <div class="services__content-9 fontconfig">
                     <span class="services-project">160 kw/ 218 hp</span>
@@ -16,7 +16,7 @@
               </div>
           </div>
           <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-              <div class=" mb-30 services__item-style-2 transition-3">
+              <div class=" mb-30  ">
                 <div class="services__item-9-top d-flex align-items-start justify-content-between">
                 
                 </div>
@@ -29,7 +29,7 @@
               </div>
           </div>
           <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-              <div class=" mb-30 services__item-style-2 transition-3">
+              <div class=" mb-30  ">
                 <div class="services__item-9-top d-flex align-items-start justify-content-between">
            
                 </div>
@@ -41,7 +41,7 @@
                 </div>
               </div>
 
-              <div><p>Aiways</p></div>
+              <div><p></p></div>
           </div>
         </div>
     </div>

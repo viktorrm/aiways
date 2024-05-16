@@ -4,7 +4,7 @@
     <AboutTextArea />
     <BoxShadowStyle />
     <ElVideoMain />
-    <AgencyPricing />
+    <AgencyPricing id="specs" />
 
     <SliderWithDots />
     <AboutFaqs />
