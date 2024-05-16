@@ -5,23 +5,29 @@
   >
     <div class="contain">
       <div class="text-black text_in_photo">
-        <div class="title_in_photo">Your Way. <b>Just Electric.</b></div>
+        <div class="title_in_photo">A tu manera.<b>JSolo eléctrico.</b></div>
         <div class="desc">
-          Experience the unexpected spaciousness, the unparalleled comfort and
-          versatility of the Aiways U5.
+          Experimenta la inesperada amplitud, el confort incomparable y la versatilidad del Aiways U5.
         </div>
       </div>
     </div>
 
     <div class="about__btn">
-      <nuxt-link href="/about" class="tp-btn">Descubre más</nuxt-link>
+      <nuxt-link href="https://www.aiwaysu5.es/" class="tp-btn">Descubre más</nuxt-link>
     </div>
   </section>
 
   <section
     :class="`video__area   include-bg ${el_style ? 'mb-60' : ''}`"
     :style="{ backgroundImage: `url(${img2})` }"
-  ></section>
+    
+  ><div class="desc font-text about__btn2">
+         Explora el diseño desde todos los ángulos.
+        </div>
+     <div class="about__btn2">
+      <nuxt-link href="https://www.ai-ways.eu/en/u5/" class="tp-btn">Descubre más</nuxt-link>
+    </div></section>
+  
 </template>
 
 <script>
@@ -64,6 +70,11 @@ export default {
   font-weight: 300;
   margin-bottom: 10px;
 }
+.about__btn2{
+  margin-top: 80px;
+  margin-left: 150px;
+  padding: 25px;
+}
 .about__btn b {
   font-weight: 700;
 }
@@ -90,6 +101,10 @@ export default {
   padding: 20px;
   line-height: 25px;
   background: white;
+}
+.font-text{
+  padding: 30px;
+  font-size: 30px;
 }
 
 .title_in_photo {

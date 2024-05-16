@@ -74,19 +74,19 @@ export default {
         {
           id: "about-three",
           title: "Estructura de Sandwich",
-          desc: "",
+          desc: "A diferencia de otros paquetes de baterías automotrices, el paquete de baterías del U5 presenta una estructura de sándwich patentada. La estructura multicapa inserta una pantalla aislante entre el módulo de la batería y la placa de enfriamiento, separando así la zona seca (módulo de la batería) de la zona húmeda (placa de enfriamiento). El enfriamiento eficiente y el precalentamiento aumentan la eficiencia de la batería, lo que, a su vez, permite una mayor capacidad y, por lo tanto, un mayor rango. También se beneficia de una larga vida útil. Incluso después de ocho años, el paquete de baterías aún suministra un mínimo del 80% de su capacidad original.",
           parent: "about-faqaccordion",
         },
         {
-          id: "about-three",
+          id: "about-four",
           title: "Seguridad",
           desc: "La separación entre las zonas secas y húmedas garantiza un nivel de seguridad sin precedentes, incluso si la batería se deforma o se rompe. En caso de una colisión grave, el módulo de la batería también está protegido contra fugas de refrigerante. Esto elimina el riesgo de incendio/explosión. Como tal, un espacio de 15 mm entre la parte inferior de la placa de la batería y el módulo de la batería sirve como protección contra impactos",
           parent: "about-faqaccordion",
         },
         {
-          id: "about-three",
+          id: "about-five",
           title: "Enfriamiento",
-          desc: "",
+          desc: "La batería bien aislada está protegida contra el sobrecalentamiento por un sistema de refrigeración líquida. Esto también aumenta la eficiencia de carga y permite una mayor capacidad.La excelente seguridad del sistema de refrigeración del U5 se ha demostrado en una amplia gama de pruebas y simulaciones (incluidas pruebas de compresión, pruebas de caída, pruebas de fuego, pruebas de inundación, pruebas de vibración).",
           parent: "about-faqaccordion",
         },
       ],

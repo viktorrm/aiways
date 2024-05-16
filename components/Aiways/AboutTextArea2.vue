@@ -7,7 +7,7 @@
             class="about__text-wrapper"
             data-sal="slide-up" data-sal-delay="130" data-sal-duration="1000"
           >
-            <h3 class="about__text-title">
+            <h3 class="about__text-title align">
                <br />
               ¡Claro y conciso! Así me gusta.
             </h3>
@@ -53,3 +53,8 @@ export default {
 
 };
 </script>
+<style scoped>
+.align{
+  text-align: center;
+}
+</style>
