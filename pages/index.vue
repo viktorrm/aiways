@@ -1,13 +1,11 @@
 <template>
   <LayoutOne>
     <HomeHero />
-    <!--   <HomeAbout/> -->
     <AboutTextArea />
     <BoxShadowStyle />
     <ElVideoMain />
     <AgencyPricing />
-    <!-- <ElVideoMain/> -->
-    <!--  <DetailsDesc/> -->
+
     <SliderWithDots />
     <AboutFaqs />
     <FaqArea />
@@ -37,6 +35,6 @@ useHead({
 </script>
 <style scoped>
 * {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 </style>
