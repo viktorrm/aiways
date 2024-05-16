@@ -3,7 +3,6 @@
     <HomeHero2 />
     <AboutTextArea2 />
     <BoxShadowStyle2 />
-    <ElVideoMain2 />
     <AgencyPricing2 />
     <SliderWithDots2 />
     <AboutFaqs2 />

@@ -22,25 +22,13 @@
       </div>
     </div>
     <div class="about__btn">
-      <nuxt-link href="https://www.aiwaysu5.es/" target="_blank" class="tp-btn"
+      <nuxt-link href="#specs" class="tp-btn"
         >Descubre más</nuxt-link
       >
     </div>
   </section>
 
-  <section
-    :class="`video__area   include-bg ${el_style ? 'mb-60' : ''}`"
-    :style="{ backgroundImage: `url(${img2})` }"
-  >
-    <div class="font-text title_in_photo3">
-      Explora el diseño desde todos los ángulos.
-    </div>
-    <div class="about__btn2">
-      <nuxt-link href="https://www.aiwaysu5.es/" target="_blank" class="tp-btn"
-        >Descubre más</nuxt-link
-      >
-    </div>
-  </section>
+  
 </template>
 
 <script>
