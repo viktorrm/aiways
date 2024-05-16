@@ -2,7 +2,9 @@
   <section id="tpabout" class="about__area pt-120 pb-120">
     <div class="container">
       <div class="row">
-        <div class=" text-center mt-100 mb-5 "> <H1 class="centrar">Conoces la aplicación de Aiways?</H1></div>
+        <div class="text-center mt-100 mb-5">
+          <H1 class="centrar">Conoces la aplicación de Aiways?</H1>
+        </div>
         <div class="col-xxl-6 col-xl-6 col-lg-6">
           <div class="about__thumb-wrapper ml-70 pr-100">
             <div
@@ -14,16 +16,6 @@
               <div class="tp-thumb-overlay wow"></div>
               <img src="~/assets/img/app.jpg" alt="" />
             </div>
-           <!--  <div class="about__thumb-text">
-              <h3 data-text="Expert">Expert</h3>
-            </div> -->
-            <!-- <div class="about__experience">
-              <h4><span class="counter">12</span></h4>
-              <p>
-                Years <br />
-                Experience
-              </p>
-            </div> -->
           </div>
         </div>
         <div class="col-xxl-6 col-xl-6 col-lg-6">
@@ -33,8 +25,6 @@
             data-sal-delay="170"
             data-sal-duration="1000"
           >
-
-
             <p>
               The city and town name generator uses a database of over five
               million names across more than 150 countries. If you are looking
@@ -43,9 +33,12 @@
               tips. How you use the city or town name is up to you.
             </p>
 
-
             <div class="about__btn">
-              <nuxt-link href="https://www.plugshare.com/map/costa-rica" class="tp-btn">Ir a la página</nuxt-link>
+              <nuxt-link
+                href="https://www.plugshare.com/map/costa-rica"
+                class="tp-btn"
+                >Ir a la página</nuxt-link
+              >
             </div>
           </div>
         </div>
@@ -62,8 +55,8 @@ export default {
 };
 </script>
 <style scoped>
-.tp-btn{
-border-radius: 4px;
-background: #00CFB4;
+.tp-btn {
+  border-radius: 4px;
+  background: #00cfb4;
 }
 </style>

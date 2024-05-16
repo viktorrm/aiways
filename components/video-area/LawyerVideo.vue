@@ -12,6 +12,15 @@
         </div>
       </div>
     </div>
+    <div class="contain">
+      <div class="text-black text_in_photo_2">
+        <div class="title_in_photo2">A tu manera.<b>JSolo eléctrico.</b></div>
+        <div class="desc">
+          Experimenta la inesperada amplitud, el confort incomparable y la
+          versatilidad del Aiways U5.
+        </div>
+      </div>
+    </div>
     <div class="about__btn">
       <nuxt-link href="https://www.aiwaysu5.es/" class="tp-btn"
         >Descubre más</nuxt-link
@@ -64,47 +73,73 @@ export default {
 <style scoped>
 .include-bg {
   height: 550px;
-  background-size: cover !important;
+  background-size: cover;
 }
+
 .right-align {
   text-align: left;
 }
+
 .about__btn {
   font-size: 35px !important;
   font-weight: 300;
   margin-bottom: 10px;
 }
+
 .about__btn2 {
   margin-top: 80px;
   margin-left: 150px;
   padding: 25px;
 }
+
 .about__btn b {
   font-weight: 700;
 }
+
 .tp-btn {
   background: #00cfb4;
 }
+
 .contain {
   position: relative;
+  height: 300px;
 }
+
 .text_in_photo {
   position: absolute;
   width: 43%;
-  height: 359px;
+  height: 400px;
   right: -15px;
-  top: -98px;
+  top: -50%;
   rotate: -15deg;
   border-bottom-left-radius: 50px;
   padding: 20px;
-  line-height: 25px;
   background: white;
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 750px) {
     display: none !important;
   }
   padding: 20px;
   line-height: 25px;
   background: white;
+}
+
+.text_in_photo_2 {
+  position: relative;
+  width: 110%;
+  height: 155px;
+  right: 6px;
+  top: -120%;
+  rotate: -8deg;
+  border-bottom-left-radius: 20px;
+  padding: 20px;
+  background: green;
+  text-align: center;
+  padding: 20px;
+  line-height: 25px;
+  background: white;
+  @media screen and (min-width: 750px) {
+    display: none !important;
+  }
 }
 .font-text {
   padding: 30px;
@@ -112,19 +147,40 @@ export default {
 }
 
 .title_in_photo {
-  margin-top: 170px;
+  margin-top: 200px;
   margin-right: 0;
   margin-left: 20px;
   font-size: 1.9vw;
   rotate: 15deg;
 }
+
+.title_in_photo2 {
+  rotate: 8deg;
+
+  @media screen and (max-width: 750px) {
+    font-size: 6vw;
+  }
+}
+
 .text_in_photo .desc {
-  margin-top: 10px;
-  margin-left: 8px;
+  margin-top: 20px;
+  margin-left: 1px;
   margin-right: 10%;
   font-size: 1.5vw;
   rotate: 15deg;
+  line-height: 32px;
 }
+
+.desc2 {
+  text-align: left !important;
+  rotate: 8deg !important;
+  margin-top: 30px;
+
+  @media screen and (max-width: 750px) {
+    font-size: 4vw;
+  }
+}
+
 .about__btn {
   position: absolute;
   bottom: 10%;
@@ -134,6 +190,7 @@ export default {
     transform: translate(-50%, -50%);
   }
 }
+
 .tp-btn {
   padding: 15px 40px;
   border-radius: 5px;
