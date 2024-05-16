@@ -73,18 +73,7 @@ export default {
           title: "El nuevo Aiways U5",
           bg: bg_1,
         },
-        {
-          id: 2,
-          pre_title: "Hello! Consulting",
-          title: "To This Template Than What You Can See",
-          bg: bg_2,
-        },
-        {
-          id: 3,
-          pre_title: "Hello! Consulting",
-          title: "Digital Age Adventure <br /> In Marketing",
-          bg: bg_3,
-        },
+      
       ],
     };
   },

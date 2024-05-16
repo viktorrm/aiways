@@ -8,7 +8,7 @@
               <div class="services__item-style-2  mb-30 transition-3">
         
                 <div class="services__content-9 fontconfig">
-                    <span class="services-project">160 kw/ 218 PS</span>
+                    <span class="services-project">160 kw/ 218 hp</span>
                     <h3 class="services__title-9 marginb">
                        Potencia del motor
                     </h3>

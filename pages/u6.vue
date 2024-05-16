@@ -1,18 +1,12 @@
 <template>
   <LayoutOne>
     <HomeHero2 />
-  <!--   <HomeAbout/> -->
-    <AboutTextArea2/>
-    <BoxShadowStyle2/>
-     <ElVideoMain2/>
-   <!--    <ElVideoMain2/> -->
-      <AgencyPricing2/>
-           <SliderWithDots2/>
-      <AboutFaqs />
-      <!-- <ElVideoMain/> -->
-     <!--  <DetailsDesc/> -->
-
-     <AboutFaqs2/>
+ <AboutTextArea2/>
+  <BoxShadowStyle2/>
+  <ElVideoMain2/>
+  <AgencyPricing2/>
+  <SliderWithDots2/>
+  <AboutFaqs2/>
 <FaqArea2/>
 <HomeAbout2/>
 <AgencyPricing/>
@@ -28,7 +22,7 @@ import BoxShadowStyle2 from '~~/components/Aiways/BoxShadowStyle2.vue';
 import ElVideoMain2 from '~~/components/Aiways/ElVideoMain2.vue';
 import SliderWithDots2 from '~~/components/Aiways/SliderWithDots2.vue';
 import DetailsDesc from '~~/components/product-details/DetailsDesc.vue';
-import AboutFaqs from '~~/components/faqs/AboutFaqs.vue';
+import AboutFaqs2 from '~~/components/Aiways/AboutFaqs2.vue';
 import FaqArea2 from '~~/components/Aiways/FaqArea2.vue';
 import AgencyPricing2 from '~~/components/Aiways/AgencyPricing2.vue';
 import HomeAbout2 from '~/components/Aiways/HomeAbout2.vue';
