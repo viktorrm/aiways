@@ -16,10 +16,10 @@
                     <p>The home and elements needed to create beautiful products.</p>
                     <div class="footer__contact">
                       <div class="">
-                        <span><a href="tel:624-423-26-72"><i class="fa-solid fa-phone"></i> +624 423 26 72</a></span>
+                        <span><a href="tel:624-423-26-72"><i class="fa-solid fa-phone"></i> +506 8815 9919</a></span>
                       </div>
                       <div class="footer__contact-mail">
-                        <span><a href="mailto:support@harry.com">support@harry.com</a></span>
+                        <span><a >electroautoscr@gmail.com</a></span>
                       </div>
                     </div>
                     <div class="footer__social">
