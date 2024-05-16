@@ -37,11 +37,13 @@
               </li>
             </ul>
           </div>
-          <h3>
-            <a href="#" class="donwload_pdf fcolor" @click="downloadPdf">
-              Ver pdf
-            </a>
-          </h3>
+          <div>
+            <h3>
+              <a href="#" class="donwload_pdf fcolor" @click="downloadPdf">
+                Ver pdf
+              </a>
+            </h3>
+          </div>
           <div class="row">
             <div
               class="col-6 mt-10"
@@ -63,14 +65,14 @@
 
 <script>
 import SingleFaq from "~~/components/faqs/SingleFaq.vue";
-import { specs } from "~~/mixins/tecSpecs";
+import { specs } from "~~/mixins/tecSpecs3";
 export default {
   components: { SingleFaq },
   methods: {
     downloadPdf() {
       // create element <a> for download PDF
       const link = document.createElement("a");
-      link.href = "/pdf/U5-Model-comparison.pdf";
+      link.href = "/pdf/U6-Model-comparison.pdf";
       link.target = "_blank";
       // link.download = "welcomeBook.pdf";
 

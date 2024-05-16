@@ -18,5 +18,4 @@ import DetailsDesc from '~~/components/product-details/DetailsDesc.vue';
 useHead({
   title: "Aiways Costa Rica",
 });
-
 </script>

@@ -10,7 +10,8 @@
     <AboutFaqs />
     <FaqArea />
     <HomeAbout />
-    <AgencyPricing />
+    <Innovative />
+    <Specs2 />
     <EspecificacionesTec />
   </LayoutOne>
 </template>
