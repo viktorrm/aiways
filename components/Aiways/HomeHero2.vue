@@ -25,7 +25,7 @@
 import bg_1 from "~/assets/aiways/slider/videou6.mp4";
 import bg_2 from "~/assets/img/slider/slider-2.jpg";
 import bg_3 from "~/assets/img/slider/slider-3.jpg";
-
+import srcVideo from "~/assets/img/aiways/videou6.mp4"
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Navigation, EffectFade } from "swiper";
 

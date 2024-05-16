@@ -28,6 +28,7 @@ import FaqArea from "~~/components/faqs/FaqArea.vue";
 import Specs2 from "~~/components/Aiways/Specs2.vue";
 import HomeAbout from "~/components/abouts/HomeAbout.vue";
 import EspecificacionesTec from "~~/components/Aiways/EspecificacionesTec.vue";
+import AgencyPricing from "~~/components/pricing/AgencyPricing.vue";
 
 useHead({
   title: "Aiways Costa Rica",
