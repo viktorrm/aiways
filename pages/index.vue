@@ -1,13 +1,11 @@
 <template>
   <LayoutOne>
     <HomeHero />
-    <!--   <HomeAbout/> -->
     <AboutTextArea />
     <BoxShadowStyle />
     <ElVideoMain />
     <AgencyPricing />
-    <!-- <ElVideoMain/> -->
-    <!--  <DetailsDesc/> -->
+
     <SliderWithDots />
     <AboutFaqs />
     <FaqArea />
@@ -27,7 +25,7 @@ import SliderWithDots from "~~/elements/elements-carousel-main/SliderWithDots.vu
 import DetailsDesc from "~~/components/product-details/DetailsDesc.vue";
 import AboutFaqs from "~~/components/faqs/AboutFaqs.vue";
 import FaqArea from "~~/components/faqs/FaqArea.vue";
-import AgencyPricing from "~~/components/pricing/AgencyPricing.vue";
+import Specs2 from "~~/components/Aiways/Specs2.vue";
 import HomeAbout from "~/components/abouts/HomeAbout.vue";
 import EspecificacionesTec from "~~/components/Aiways/EspecificacionesTec.vue";
 
@@ -37,6 +35,6 @@ useHead({
 </script>
 <style scoped>
 * {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 </style>

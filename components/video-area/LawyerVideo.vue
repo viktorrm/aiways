@@ -7,27 +7,31 @@
       <div class="text-black text_in_photo">
         <div class="title_in_photo">A tu manera.<b>JSolo eléctrico.</b></div>
         <div class="desc">
-          Experimenta la inesperada amplitud, el confort incomparable y la versatilidad del Aiways U5.
+          Experimenta la inesperada amplitud, el confort incomparable y la
+          versatilidad del Aiways U5.
         </div>
       </div>
     </div>
-
     <div class="about__btn">
-      <nuxt-link href="https://www.aiwaysu5.es/" class="tp-btn">Descubre más</nuxt-link>
+      <nuxt-link href="https://www.aiwaysu5.es/" class="tp-btn"
+        >Descubre más</nuxt-link
+      >
     </div>
   </section>
 
   <section
     :class="`video__area   include-bg ${el_style ? 'mb-60' : ''}`"
     :style="{ backgroundImage: `url(${img2})` }"
-    
-  ><div class="desc font-text about__btn2">
-         Explora el diseño desde todos los ángulos.
-        </div>
-     <div class="about__btn2">
-      <nuxt-link href="https://www.ai-ways.eu/en/u5/" class="tp-btn">Descubre más</nuxt-link>
-    </div></section>
-  
+  >
+    <div class="desc font-text about__btn2">
+      Explora el diseño desde todos los ángulos.
+    </div>
+    <div class="about__btn2">
+      <nuxt-link href="https://www.ai-ways.eu/en/u5/" class="tp-btn"
+        >Descubre más</nuxt-link
+      >
+    </div>
+  </section>
 </template>
 
 <script>
@@ -70,7 +74,7 @@ export default {
   font-weight: 300;
   margin-bottom: 10px;
 }
-.about__btn2{
+.about__btn2 {
   margin-top: 80px;
   margin-left: 150px;
   padding: 25px;
@@ -102,7 +106,7 @@ export default {
   line-height: 25px;
   background: white;
 }
-.font-text{
+.font-text {
   padding: 30px;
   font-size: 30px;
 }
@@ -122,12 +126,23 @@ export default {
   rotate: 15deg;
 }
 .about__btn {
-  position: relative;
-  top: 70%;
-  left: 75%;
+  position: absolute;
+  bottom: 10%;
+  right: 15vw;
+  @media screen and (max-width: 550px) {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 .tp-btn {
   padding: 15px 40px;
   border-radius: 5px;
+  @media screen and (max-width: 550px) {
+    padding: 15px 22px;
+  }
+}
+
+.include-bg {
+  position: relative;
 }
 </style>

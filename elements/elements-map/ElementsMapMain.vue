@@ -23,9 +23,4 @@
   <!-- Map Black area end --> 
 </template>
 
-<script>
 
-export default {
-  components: { CommonBreadcrumb },
-};
-</script>
