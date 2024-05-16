@@ -1,44 +1,22 @@
 <template>
   <section class="slider__area p-relative">
-    <Swiper
-      class="slider__active swiper-container"
-      :slidesPerView="1"
-      :loop="true"
-      :modules="modules"
-      :effect="'fade'"
-      :pagination="{
-        el: '.main-slider-dot',
-        clickable: true,
-        renderBullet: renderBullet,
-      }"
-    >
-      <SwiperSlide
-        v-for="(item, i) in slider_data"
-        :key="i"
-        class="slider__item slider__height include-bg pt-100 pb-100 d-flex align-items-center"
-      >
-        <div
-          class="slider__bg p-relative include-bg"
-          :style="{ backgroundImage: `url(${item.bg})` }"
-        ></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xxl-12">
-              <div class="slider__content text-center">
-                <span class="slider__title-pre">
-                  {{ item.pre_title }}
-                </span>
-                <h3 class="slider__title" v-html="item.title"></h3>
-             
-              </div>
-            </div>
-          </div>
-        </div>
-      </SwiperSlide>
 
-     <!--  <div class="main-slider-dot d-none d-lg-flex"></div> -->
-    </Swiper>
- <!--  -->
+    <div class="header">
+      <video
+        class="video w-100"
+        id="video"
+        :src="srcVideo"
+        ref="video"
+        width="800"
+        height="400"
+        autoplay
+        loop
+        muted
+        style="object-fit: cover"
+      ></video>
+      <h1 class="title">Descubre el Aiways U6</h1>
+    </div>
+    <!--  -->
   </section>
 </template>
 
@@ -50,16 +28,19 @@ import bg_3 from "~/assets/img/slider/slider-3.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Navigation, EffectFade } from "swiper";
-/* import  StartUpCounter  from "~/components/hero-banner/HomeHero.vue"; */
 
 export default {
   components: {
     Swiper,
     SwiperSlide,
-
   },
   data() {
     return {
+      srcVideo: srcVideo,
+      video: null,
+      canvas: null,
+      ctx: null,
+      title: "Your Title Here",
       bg_1,
       bg_2,
       bg_3,
@@ -96,25 +77,46 @@ export default {
       modules: [Pagination, Navigation, EffectFade],
     };
   },
+  mounted() {},
 };
 </script>
 
 <style scoped>
-.slider__title{
-position: 0;
-margin: -320px ;
+.header {
+  position: relative;
 }
-.slider__height{
-  margin-top: 80px;
 
+canvas {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-.slider__overlay{
+
+.title {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 48px;
+}
+/*  */
+.slider__title {
+  position: 0;
+  margin: -320px;
+}
+.slider__height {
+  margin-top: 80px;
+}
+.slider__overlay {
   background-color: none;
- 
 }
-.slider__bg{
+.slider__bg {
   background-color: transparent;
   backdrop-filter: 0;
-
+}
+.video {
+  height: 800px;
+  margin-top: 80px;
 }
 </style>
