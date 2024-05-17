@@ -1,19 +1,17 @@
 <template>
-  <section class="about__text pt-115 pb-100">
+  <section class="about__text pt-100 pb-100">
     <div class="container">
       <div class="row">
         <div class="">
           <div
-            class="about__text-wrapper"
+            class="about__text-wrapper title_div text-center"
             data-sal="slide-up"
             data-sal-delay="130"
             data-sal-duration="1000"
           >
-            <h3 class="about__text-title">
-              <br />
-              Totalmente eléctrico, totalmente equipado, totalmente adecuado
-              para la vida cotidiana.
-            </h3>
+            <br />
+            Totalmente eléctrico, totalmente equipado, totalmente adecuado para
+            la vida cotidiana.
           </div>
         </div>
         <div class="col-xl-6 col-lg-6">
@@ -61,3 +59,10 @@ export default {
   mixins: [SalScrollAnimationMixin],
 };
 </script>
+<style scoped>
+.about__text {
+  @media screen and (max-width: 750px) {
+    padding-top: 30px;
+  }
+}
+</style>

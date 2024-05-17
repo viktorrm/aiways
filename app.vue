@@ -1,9 +1,14 @@
 <template>
-  <NuxtPage></NuxtPage>
+  <NuxtPage> </NuxtPage>
+  <whatsapp />
 </template>
 
 <script>
-export default {};
+import whatsapp from "~/components/Aiways/whatsapp.vue";
+
+export default {
+  components: { whatsapp },
+};
 </script>
 <style>
 p {
