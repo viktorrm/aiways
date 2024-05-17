@@ -29,18 +29,13 @@
                   {{ item.pre_title }}
                 </span>
                 <h3 class="slider__title" v-html="item.title"></h3>
-                <!-- <div class="slider__form">
-                  <SliderForm />
-                </div> -->
               </div>
             </div>
           </div>
         </div>
       </SwiperSlide>
-
-     <!--  <div class="main-slider-dot d-none d-lg-flex"></div> -->
     </Swiper>
- <!--  -->
+    <!--  -->
   </section>
 </template>
 
@@ -59,8 +54,8 @@ export default {
   components: {
     Swiper,
     SwiperSlide,
- /*    SliderForm, */
-/*     StartUpCounter, */
+    /*    SliderForm, */
+    /*     StartUpCounter, */
   },
   data() {
     return {
@@ -73,7 +68,6 @@ export default {
           title: "El nuevo Aiways U5",
           bg: bg_1,
         },
-      
       ],
     };
   },
@@ -93,21 +87,29 @@ export default {
 </script>
 
 <style scoped>
-.slider__title{
-position: 0;
-margin: -320px ;
+.slider__title {
+  position: 0;
+  margin: -320px;
 }
-.slider__height{
+.slider__height {
   margin-top: 80px;
-
 }
-.slider__overlay{
+.slider__overlay {
   background-color: none;
- 
 }
-.slider__bg{
+.slider__bg {
   background-color: transparent;
   backdrop-filter: 0;
+}
 
+@media screen and (max-width: 768px) {
+  .swiper-container {
+    height: 600px;
+    padding-bottom: 0px !important;
+  }
+  .slider__bg {
+    height: 500px;
+    padding-bottom: 0px !important;
+  }
 }
 </style>
