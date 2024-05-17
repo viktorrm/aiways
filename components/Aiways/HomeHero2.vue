@@ -7,8 +7,7 @@
         id="video"
         :src="srcVideo"
         ref="video"
-        width="800"
-        height="400"
+      
         autoplay
         loop
         muted
@@ -101,7 +100,7 @@ canvas {
   font-size: 48px;
   @media screen and (max-width: 750px) {
     font-size: 28px;
-    top: 25%;
+    top: 35%;
     left: 10%;
     transform: translate(6%, -50%);
   }
@@ -125,6 +124,9 @@ canvas {
 .video {
   height: 800px;
   margin-top: 80px;
+  @media screen and (max-width: 750px) {
+   height: 300px;
+  }
 }
 
 </style>
