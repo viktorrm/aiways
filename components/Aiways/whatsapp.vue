@@ -41,7 +41,7 @@ export default {
     waUrl() {
       return `https://${
         this.isMobile() ? "api" : "web"
-      }.whatsapp.com/send?phone=+50688159919}`;
+      }.whatsapp.com/send?phone=+50688159919`;
     },
   },
   methods: {
