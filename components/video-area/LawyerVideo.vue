@@ -32,7 +32,7 @@
     </div>
   </section>
 
-  
+
 </template>
 
 <script>
