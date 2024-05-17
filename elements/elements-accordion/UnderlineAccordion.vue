@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-xxl-12">
-          <div class="tp-section-wrapper-3 mb-30 text-center">
-        <h3 class="tp-section-title-3">¿Alguna otra consulta?</h3>
+          <div class="tp-section-wrapper-3 mb-50 text-center title_div">
+            ¿Alguna otra consulta?
           </div>
         </div>
       </div>

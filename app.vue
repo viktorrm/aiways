@@ -8,5 +8,9 @@ export default {};
 <style>
 p {
   font-size: 20px !important;
+  line-height: 1.62 !important;
+}
+.title_div {
+  font-size: 48px !important;
 }
 </style>

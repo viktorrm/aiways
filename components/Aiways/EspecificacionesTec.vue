@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="">
-      <div class="text-center mt-100 mb-5">
-        <h1 class="centrar">Especificaciones Técnicas prueba</h1>
+      <div class="text-center mt-100 title_div">
+        Especificaciones Técnicas prueba
       </div>
     </div>
   </div>
@@ -44,11 +44,11 @@
           </h3>
           <div class="row">
             <div
-              class="col-6 mt-10"
+              class="col-6 my-2"
               v-for="(item, i) in selectedTab.specs"
               :key="i"
             >
-              <h5>{{ item.titulo }}</h5>
+              <p>{{ item.titulo }}</p>
               <h3 class="fcolor mb-4">{{ item.desc }}</h3>
             </div>
           </div>
@@ -72,9 +72,7 @@ export default {
       const link = document.createElement("a");
       link.href = "/pdf/U5-Model-comparison.pdf";
       link.target = "_blank";
-      // link.download = "welcomeBook.pdf";
 
-      // Simulate a click on the element <a>
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

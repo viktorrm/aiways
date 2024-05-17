@@ -3,10 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-xxl-12">
-          <div class="section__title-wrapper-5 mb-50 text-center">
-            <h3 class="section__title-5">
-              Exterior expresivo, Impresionante interior.
-            </h3>
+          <div class="section__title-wrapper-5 mb-50 text-center title_div">
+            Exterior expresivo, Impresionante interior.
           </div>
           <div class="pt-25 pb-25 text-center">
             <p>
@@ -25,70 +23,73 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <!--  -->
+    </div>
 
-        <!--  -->
-        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
-          <div class="pricing__tab-nav tp-tab mb-50 mx-auto">
-            <div class="tab-container">
-              <button
-                v-for="(tab, i) in [specs.interior, specs.exterior]"
-                :key="i"
-                :class="`${
-                  activeTab === `tab${1 + i}` ? 'selected_tab' : ''
-                } w-100 tab-button${1 + i}`"
-                @click="setActiveTab(`tab${1 + i}`, i)"
-              >
-                {{ i === 0 ? "Interior" : "Exterior" }}
-              </button>
-            </div>
-          </div>
-          <div class="tab-pane text-black">
-            <section class="faq__area pt-20 pb-25">
-              <div class="container">
-                <div class="row">
-                  <div class="">
-                    <div class="faq__tab-2 tp-tab mb-50">
-                      <ul
-                        class="nav justify-content-center nav-tabs"
-                        id="myTab"
-                        role="tablist"
-                      >
-                        <li v-for="(item, index) in tabSpecs" :key="index">
-                          <button
-                            :class="`nav-link ${index === 0 ? 'active' : ''}`"
-                            :id="`${item.title}-tab`"
-                            data-bs-toggle="tab"
-                            :data-bs-target="`#${item.title}`"
-                            type="button"
-                            role="tab"
-                            :aria-controls="`${item.title}`"
-                            aria-selected="true"
-                            @click="selectedSpec = item"
-                          >
-                            {{ item.title }}
-                          </button>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+    <div class="row justify-content-center">
+      <!--  -->
+
+      <!--  -->
+      <div class="6">
+        <div class="pricing__tab-nav tp-tab mb-50 mx-auto">
+          <div class="tab-container">
+            <button
+              v-for="(tab, i) in [specs.interior, specs.exterior]"
+              :key="i"
+              :class="`${
+                activeTab === `tab${1 + i}` ? 'selected_tab' : ''
+              } w-100 tab-button${1 + i}`"
+              @click="setActiveTab(`tab${1 + i}`, i)"
+            >
+              {{ i === 0 ? "Interior" : "Exterior" }}
+            </button>
           </div>
         </div>
+        <div class="tab-pane text-black">
+          <section class="faq__area pt-20 pb-25">
+            <div class="row">
+              <div class="faq__tab-2 tp-tab mb-50">
+                <ul
+                  class="nav justify-content-center nav-tabs"
+                  id="myTab"
+                  role="tablist"
+                >
+                  <li v-for="(item, index) in tabSpecs" :key="index">
+                    <button
+                      :class="`nav-link ${index === 0 ? 'active' : ''}`"
+                      :id="`${item.title}-tab`"
+                      data-bs-toggle="tab"
+                      :data-bs-target="`#${item.title}`"
+                      type="button"
+                      role="tab"
+                      :aria-controls="`${item.title}`"
+                      aria-selected="true"
+                      @click="selectedSpec = item"
+                    >
+                      <p>{{ item.title }}</p>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-xxl-12">
-          <div class="desc mb-50">
-            <img v-if="selectedSpec" :src="selectedSpec.img" alt="" />
-            <div class="title_in_photo mt-40 text-center">
-              <p>{{ selectedSpec.desc?.titulo }}</p>
-            </div>
-            <div class="mt-40 description text-left">
-              <p>{{ selectedSpec.desc?.desc }}</p>
-            </div>
+    </div>
+
+    <div class="container">
+      <div class="">
+        <div class="mb-50">
+          <img
+            v-if="selectedSpec"
+            :src="selectedSpec.img"
+            alt=""
+            class="w-100 h-100"
+          />
+          <div class="title_in_photo mt-40 text-center">
+            {{ selectedSpec.desc?.titulo }}
+          </div>
+          <div class="mt-40 description text-left">
+            <p>{{ selectedSpec.desc?.desc }}</p>
           </div>
         </div>
       </div>
@@ -178,7 +179,7 @@ export default {
 }
 
 .description {
-  font-size: 25px;
+  font-size: 20px !important;
 }
 .nav {
   list-style-type: none;

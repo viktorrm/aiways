@@ -5,7 +5,6 @@
     <BoxShadowStyle />
     <ElVideoMain />
     <AgencyPricing id="specs" />
-
     <SliderWithDots />
     <AboutFaqs />
     <FaqArea />

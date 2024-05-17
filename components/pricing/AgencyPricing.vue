@@ -3,10 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-xxl-12">
-          <div class="section__title-wrapper-5 mb-50 text-center">
-            <h3 class="section__title-5">
-              Exterior expresivo, Impresionante interior.
-            </h3>
+          <div class="section__title-wrapper-5 mb-50 text-center title_div">
+            Exterior expresivo, Impresionante interior.
           </div>
           <div class="pt-25 pb-25 text-center">
             <p>
@@ -25,11 +23,11 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
+      <div class="justify-content-center">
         <!--  -->
 
         <!--  -->
-        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+        <div class="">
           <div class="pricing__tab-nav tp-tab mb-50 mx-auto">
             <div class="tab-container">
               <button
@@ -67,7 +65,7 @@
                             aria-selected="true"
                             @click="selectedSpec = item"
                           >
-                            {{ item.title }}
+                            <p>{{ item.title }}</p>
                           </button>
                         </li>
                       </ul>
@@ -81,13 +79,13 @@
       </div>
       <div class="row">
         <div class="col-xxl-12">
-          <div class="desc mb-50">
+          <div class="mb-50">
             <img v-if="selectedSpec" :src="selectedSpec.img" alt="" />
             <div class="title_in_photo mt-40 text-center">
               {{ selectedSpec.desc?.titulo }}
             </div>
             <div class="mt-40 description text-left">
-              {{ selectedSpec.desc?.desc }}
+              <p>{{ selectedSpec.desc?.desc }}</p>
             </div>
           </div>
         </div>

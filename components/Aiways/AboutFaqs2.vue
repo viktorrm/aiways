@@ -2,8 +2,8 @@
   <section class="faq__area">
     <div class="container pb-25">
       <div class="">
-        <div class="text-center">
-          <h1 class="centrar">Tren de potencia y paquete de baterías</h1>
+        <div class="text-center title_div">
+          Tren de potencia y paquete de baterías
         </div>
       </div>
     </div>

@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="">
-      <div class="text-center mt-100 mb-5">
-        <h1 class="centrar">Carga intuitiva y directa con el Aiways U</h1>
+      <div class="text-center mt-100 mb-5 title_div">
+        Carga intuitiva y directa con el Aiways U
       </div>
       <div class="pt-25 pb-25 text-center">
         <p>
