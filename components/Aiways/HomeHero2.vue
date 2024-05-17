@@ -100,7 +100,7 @@ canvas {
   color: #fff;
   font-size: 48px;
   @media screen and (min-width: 750px) {
-    font-size: 5px !important;
+    font-size: 48px !important;
 }
   
 }
