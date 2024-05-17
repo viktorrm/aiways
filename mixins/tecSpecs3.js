@@ -34,13 +34,4 @@ export const specs = {
     ],
   },
 
-  xcite: {
-    titulo: "XCITE",
-    specs: [
-      {
-        titulo: "Potencia del motor",
-        desc: "150 kW / 204 hp",
-      },
-    ],
-  },
 };

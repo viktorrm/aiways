@@ -2,7 +2,7 @@
   <div class="container">
     <div class="">
       <div class="text-center mt-100 title_div">
-        Especificaciones Técnicas prueba
+        Especificaciones Técnicas
       </div>
     </div>
   </div>
@@ -10,7 +10,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-sm-12 img_specs">
-          <img src="/_nuxt/assets/img/aiways/u5-premium.jpg" />
+          <img src="/_nuxt/assets/img/aiways/u6-premium.jpg" />
         </div>
         <div class="col-lg-6 col-sm-12">
           <div class="faq__tab-2 tp-tab mb-50">
@@ -18,7 +18,7 @@
               <li
                 class="nav-item"
                 role="presentation"
-                v-for="(item, i) in [specs.prime, specs.xcite]"
+                v-for="(item, i) in [specs.prime]"
                 :key="i"
               >
                 <button
@@ -59,6 +59,7 @@
       <div class="faq__item-wrapper">
         <div class="tab-content" id="faqTabContent"></div>
       </div>
+      <p>* From 20% to 80% at High-Power Charging Stations (DC)</p>
     </div>
   </section>
 </template>

@@ -85,7 +85,7 @@
             alt=""
             class="w-100 h-100"
           />
-          <div class="title_in_photo mt-40 text-center">
+          <div class="title_div mt-40 text-center">
             {{ selectedSpec.desc?.titulo }}
           </div>
           <div class="mt-40 description text-left">
@@ -101,7 +101,7 @@
 // price icon
 
 import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
-import { specs } from "~~/mixins/u5_Interior_Exterior.js";
+import { specs } from "~~/mixins/u6_Interior_Exterior.js";
 
 export default {
   mixins: [SalScrollAnimationMixin],

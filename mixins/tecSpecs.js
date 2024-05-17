@@ -39,7 +39,31 @@ export const specs = {
     specs: [
       {
         titulo: "Potencia del motor",
-        desc: "150 kW / 204 hp",
+        desc: "150 km / 204hp",
+      },
+      {
+        titulo: "Rango",
+        desc: "410 km",
+      },
+      {
+        titulo: "Max Torque",
+        desc: "310 Nm",
+      },
+      {
+        titulo: "Tiempo de carga rápida",
+        desc: "35 min*",
+      },
+      {
+        titulo: "0-100km/h",
+        desc: "7,5 seg",
+      },
+      {
+        titulo: "Capacidad de batería",
+        desc: "63 kWh",
+      },
+      {
+        titulo: "Peso",
+        desc: "1,770 kg",
       },
     ],
   },
