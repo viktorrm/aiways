@@ -77,7 +77,7 @@
                 class="offcanvas__info d-flex flex-wrap justify-content-lg-end align-items-center"
               >
                 <div class="offcanvas__info-item">
-                  <h4 class="offcanvas__info-item-title">Informacíon</h4>
+                  <h4 class="offcanvas__info-item-title">Información</h4>
                   <p> +506 8815 99 19</p>
                   <p>
                     <a >electroautoscr@gmail.com</a>
