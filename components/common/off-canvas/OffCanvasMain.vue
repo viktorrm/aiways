@@ -51,14 +51,12 @@
           <div class="offcanvas__full-menu menu-counter d-none d-md-block">
             <nav>
               <ul>
-                <li>
-                  <nuxt-link href="/">Inicio</nuxt-link>
-                </li>
-                <li><nuxt-link href="/">u5</nuxt-link></li>
-                <li><nuxt-link href="/u6">u6</nuxt-link></li>
+               
+                <li><nuxt-link href="/">U5</nuxt-link></li>
+                <li><nuxt-link href="/u6">U6</nuxt-link></li>
                 <li><nuxt-link href="/servicio">Servicio</nuxt-link></li>
                 <li>
-                  <nuxt-link href="/DondeEstamos">Donde estamos</nuxt-link>
+                  <nuxt-link href="/DondeEstamos">Donde Estamos</nuxt-link>
                 </li>
                 <li><nuxt-link href="/AcercaDe">Acerca de</nuxt-link></li>
               </ul>
@@ -69,10 +67,7 @@
       <div class="offcanvas__full-footer">
         <div class="row align-items-center">
           <div class="col-xl-3">
-            <div class="offcanvas__full-link">
-              <nuxt-link href="/policy">Privacy Policy</nuxt-link>
-              <nuxt-link href="/terms">Use of terms</nuxt-link>
-            </div>
+            
           </div>
           <div class="col-xl-9 order-first order-xl-last">
             <div
@@ -82,42 +77,39 @@
                 class="offcanvas__info d-flex flex-wrap justify-content-lg-end align-items-center"
               >
                 <div class="offcanvas__info-item">
-                  <h4 class="offcanvas__info-item-title">Information</h4>
-                  <p><a href="tel:964-742-44-763">+964 742 44 763</a></p>
+                  <h4 class="offcanvas__info-item-title">Informacíon</h4>
+                  <p> +506 8815 99 19</p>
                   <p>
-                    <a href="mailto:support@harry.com">support@harry.com</a>
+                    <a >electroautoscr@gmail.com</a>
                   </p>
                 </div>
                 <div class="offcanvas__info-item">
-                  <h4 class="offcanvas__info-item-title">Address</h4>
+                  <h4 class="offcanvas__info-item-title">Dirección</h4>
                   <p>
                     <a
-                      href="https://www.google.com/maps/place/102+Thompson+St,+New+York,+NY+10012,+USA/@40.7255437,-74.004061,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598c338f691d:0x6d5f394e7a1962cc!8m2!3d40.7255397!4d-74.0018723"
-                      target="_blank"
-                      >32 East Trusel Court <br />
-                      North Tonawanda, NY 14120</a
+                
+                      >Frente a Multiplaza del Este, <br />
+                      Curridabat. Metro Plaza local #9</a
                     >
                   </p>
                 </div>
               </div>
-              <div class="offcanvas__full-social offcanvas__social-3">
-                <social />
-              </div>
+             
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="body-overlay"></div>
+  
 </template>
 
 <script>
-import Social from "~~/components/social/Social.vue";
+
 import MobileMenus from "./MobileMenus.vue";
 
 export default {
-  components: { MobileMenus, Social },
+  components: { MobileMenus,  },
   data() {
     return {
       isOffCanvasOpen: false,

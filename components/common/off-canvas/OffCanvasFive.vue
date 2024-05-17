@@ -49,7 +49,7 @@
             
             <div class="offcanvas__info mb-50">
               <div class="offcanvas__info-item">
-                  <h4 class="offcanvas__info-item-title">Information</h4>
+                  <h4 class="offcanvas__info-item-title">Informion</h4>
                   <p><a href="tel:964-742-44-763">+964 742 44 763</a></p>
                   <p><a href="mailto:support@harry.com">support@harry.com</a></p>
               </div>
