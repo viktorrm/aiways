@@ -12,5 +12,6 @@ p {
 }
 .title_div {
   font-size: 48px !important;
+  line-height: 60px;
 }
 </style>

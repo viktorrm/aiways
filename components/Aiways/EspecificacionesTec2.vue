@@ -2,7 +2,7 @@
   <div class="container">
     <div class="">
       <div class="text-center mt-100 title_div">
-        Especificaciones Técnicas prueba
+        Especificaciones Técnicas
       </div>
     </div>
   </div>
@@ -10,7 +10,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-sm-12 img_specs">
-          <img src="/_nuxt/assets/img/aiways/u5-premium.jpg" />
+          <img src="/_nuxt/assets/img/aiways/u5-standard.jpg" />
         </div>
         <div class="col-lg-6 col-sm-12">
           <div class="faq__tab-2 tp-tab mb-50">
