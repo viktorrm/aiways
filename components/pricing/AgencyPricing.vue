@@ -77,17 +77,18 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xxl-12">
-          <div class="mb-50">
-            <img v-if="selectedSpec" :src="selectedSpec.img" alt="" />
-            <div class="title_in_photo mt-40 text-center">
-              {{ selectedSpec.desc?.titulo }}
-            </div>
-            <div class="mt-40 description text-left">
-              <p>{{ selectedSpec.desc?.desc }}</p>
-            </div>
-          </div>
+      <div class="container mb-50">
+        <img
+          v-if="selectedSpec"
+          :src="selectedSpec.img"
+          alt=""
+          class="w-100 h-100"
+        />
+        <div class="title_in_photo mt-40 text-center">
+          {{ selectedSpec.desc?.titulo }}
+        </div>
+        <div class="mt-40 description text-left">
+          <p>{{ selectedSpec.desc?.desc }}</p>
         </div>
       </div>
     </div>

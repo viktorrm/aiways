@@ -76,22 +76,18 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="">
-        <div class="mb-50">
-          <img
-            v-if="selectedSpec"
-            :src="selectedSpec.img"
-            alt=""
-            class="w-100 h-100"
-          />
-          <div class="title_div mt-40 text-center">
-            {{ selectedSpec.desc?.titulo }}
-          </div>
-          <div class="mt-40 description text-left">
-            <p>{{ selectedSpec.desc?.desc }}</p>
-          </div>
-        </div>
+    <div class="container mb-50">
+      <img
+        v-if="selectedSpec"
+        :src="selectedSpec.img"
+        alt=""
+        class="w-100 h-100"
+      />
+      <div class="title_div mt-40 text-center">
+        {{ selectedSpec.desc?.titulo }}
+      </div>
+      <div class="mt-40 description text-left">
+        <p>{{ selectedSpec.desc?.desc }}</p>
       </div>
     </div>
   </section>
