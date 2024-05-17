@@ -3,12 +3,12 @@ import spec2 from "~/assets/img/aiways/carsSpecs/u5/spec2.jpg";
 import exteriorruedas from "~/assets/img/aiways/carsSpecs/u5/exteriorruedas.jpg";
 import exteriortecho from "~/assets/img/aiways/carsSpecs/u5/exteriortecho.jpg";
 import exteriorpuerta from "~/assets/img/aiways/carsSpecs/u5/exteriorpuerta.jpg";
-import interiorasientos from "~/assets/img/aiways/carsSpecs/U5/interiorasientos.jpg";
-import interiorpito from "~/assets/img/aiways/carsSpecs/U5/interiorpito.jpg";
-import interiortouchscreen from "~/assets/img/aiways/carsSpecs/U5/interiortouchscreen.jpg";
-import interiorvistatecho from "~/assets/img/aiways/carsSpecs/U5/interiorvistatecho.jpg";
-import interiorespacioguardado from "~/assets/img/aiways/carsSpecs/U5/interiorespacioguardado.jpg";
-import aire from "~/assets/img/aiways/carsSpecs/U5/aire.jpg";
+import interiorasientos from "~/assets/img/aiways/carsSpecs/u5/interiorasientos.jpg";
+import interiorpito from "~/assets/img/aiways/carsSpecs/u5/interiorpito.jpg";
+import interiortouchscreen from "~/assets/img/aiways/carsSpecs/u5/interiortouchscreen.jpg";
+import interiorvistatecho from "~/assets/img/aiways/carsSpecs/u5/interiorvistatecho.jpg";
+import interiorespacioguardado from "~/assets/img/aiways/carsSpecs/u5/interiorespacioguardado.jpg";
+import aire from "~/assets/img/aiways/carsSpecs/u5/aire.jpg";
 
 
 export const specs = {
@@ -63,7 +63,7 @@ export const specs = {
     },
   ],
 
-  exterior: 
+  exterior:
   [
     {
       title: "Diseño",
