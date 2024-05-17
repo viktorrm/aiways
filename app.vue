@@ -18,5 +18,9 @@ p {
 .title_div {
   font-size: 48px !important;
   line-height: 60px;
+  @media screen and (max-width: 750px) {
+    font-size: 30px !important;
+    line-height: 35px;
+  }
 }
 </style>

@@ -4,7 +4,7 @@
       <div class="row">
         <div class="">
           <div
-            class="about__text-wrapper title_div text-center"
+            class="about__text-wrapper title_div text-center mb-50"
             data-sal="slide-up"
             data-sal-delay="130"
             data-sal-duration="1000"
@@ -62,7 +62,7 @@ export default {
 <style scoped>
 .about__text {
   @media screen and (max-width: 750px) {
-    padding-top: 30px;
+    padding-top: 0px;
   }
 }
 </style>
