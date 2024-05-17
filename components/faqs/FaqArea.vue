@@ -2,7 +2,7 @@
   <div class="container">
     <div class="">
       <div class="text-center mt-100 mb-5 title_div">
-        Carga intuitiva y directa con el Aiways U
+        Carga intuitiva y directa con el Aiways 
       </div>
       <div class="pt-25 pb-25 text-center">
         <p>
