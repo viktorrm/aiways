@@ -1,16 +1,13 @@
 <template>
   <LayoutOne>
 <serviciosinfo/>
-
- 
-
-  </LayoutOne>
+ </LayoutOne>
 </template>
 
 <script setup>
 import LayoutOne from '~/layouts/LayoutOne.vue';
 import serviciosinfo from "/components/Aiways/serviciosinfo.vue";
-import DetailsDesc from '~~/components/product-details/DetailsDesc.vue';
+
 
 
 

@@ -57,7 +57,7 @@
       <div class="faq__item-wrapper">
         <div class="tab-content" id="faqTabContent"></div>
       </div>
-      <p>* From 20% to 80% at High-Power Charging Stations (DC)</p>
+      <p>* De 20% a 80% en estaciones de carga rápida (CC)</p>
     </div>
   </section>
 </template>
