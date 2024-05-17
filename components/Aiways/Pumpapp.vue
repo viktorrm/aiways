@@ -2,8 +2,8 @@
   <section id="tpabout" class="about__area pt-120 pb-120">
     <div class="container">
       <div class="row">
-        <div class="text-center mt-100 mb-5">
-          <h1 class="centrar">Carga fácil con Plugshare.</h1>
+        <div class="text-center mt-100 mb-50 title_div">
+          Carga fácil con Plugshare.
         </div>
         <div class="col-xxl-6 col-xl-6 col-lg-6">
           <div class="about__thumb-wrapper ml-70 pr-100">
@@ -25,8 +25,11 @@
             data-sal-delay="170"
             data-sal-duration="1000"
           >
-            <p>¿Quieres mantener un ojo en los tiempos de carga, estaciones de carga y disponibilidad a lo largo de tu ruta?
-Entonces descarga la aplicación gratuita PUMP para iOS.</p>
+            <p>
+              ¿Quieres mantener un ojo en los tiempos de carga, estaciones de
+              carga y disponibilidad a lo largo de tu ruta? Entonces descarga la
+              aplicación gratuita PUMP para iOS.
+            </p>
 
             <div class="about__btn">
               <nuxt-link

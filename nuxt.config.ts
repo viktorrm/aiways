@@ -8,19 +8,16 @@ export default defineNuxtConfig({
   ],
   modules: [
     [
-      '@pinia/nuxt',
+      "@pinia/nuxt",
       {
-        autoImports: [
-          'defineStore',
-          ['defineStore', 'definePiniaStore'],
-        ],
+        autoImports: ["defineStore", ["defineStore", "definePiniaStore"]],
       },
     ],
   ],
   app: {
     head: {
       title: "Harry - Creative Agency & Portfolio Vue Nuxt 3 Template",
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/aiways-logo.svg" }],
       script: [
         {
           src: "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js",

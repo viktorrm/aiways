@@ -1,9 +1,16 @@
 <template>
-    <NuxtPage></NuxtPage>
+  <NuxtPage></NuxtPage>
 </template>
 
 <script>
-export default {
-  
-};
+export default {};
 </script>
+<style>
+p {
+  font-size: 20px !important;
+  line-height: 1.62 !important;
+}
+.title_div {
+  font-size: 48px !important;
+}
+</style>
