@@ -58,4 +58,5 @@ export default {
 .w-img img {
   border-bottom-left-radius: 45px !important;
 }
+
 </style>

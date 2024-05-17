@@ -67,7 +67,7 @@
                     <h3 class="error__title">{{error.message}}</h3>
                     <p>Whoops, this is embarassing. Looks like the page you were looking for wasn't found.</p>
                     <a href="#" @click.prevent="handleClearError" class="tp-btn">
-                        Back to Home
+                        Inicio
                         <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M16 6.97559L1 6.97559" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                           <path d="M9.95312 0.951L16.0031 6.975L9.95312 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -79,13 +79,13 @@
         </div>
       </div>
     </section>
-    <footer-six :style_2="true" />
+    <Footer :style_2="true" />
   </div>
 </template>
 
 <script setup>
-import FooterSix from './layouts/footers/FooterSix.vue';
-import HeaderOne from './layouts/headers/HeaderOne.vue';
+/* import Footer from './layouts/footers/Footer.vue';
+import HeaderOne from './layouts/headers/HeaderOne.vue'; */
 
 defineProps(['error'])
 

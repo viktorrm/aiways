@@ -14,7 +14,7 @@
         muted
         style="object-fit: cover"
       ></video>
-      <h1 class="title">Descubre el Aiways U6</h1>
+      <h2 class="title">Descubre el Aiways U6</h2>
     </div>
     <!--  -->
   </section>
@@ -81,7 +81,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped >
 .header {
   position: relative;
 }
@@ -99,6 +99,10 @@ canvas {
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 48px;
+  @media screen and (min-width: 750px) {
+    font-size: 5px !important;
+}
+  
 }
 /*  */
 .slider__title {
@@ -119,4 +123,5 @@ canvas {
   height: 800px;
   margin-top: 80px;
 }
+
 </style>
