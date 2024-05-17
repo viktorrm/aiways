@@ -27,6 +27,24 @@ export default {
           desc: "La autonomía teórica se define como la distancia que puede recorrer un vehículo eléctrico desde una carga completa hasta que la batería se descarga por completo. Este cálculo se realiza utilizando el protocolo WLTP y sirve como punto de referencia para comparar diferentes vehículos eléctricos. Es fundamental tener en cuenta que la autonomía WLTP se calcula considerando diversos factores que se acercan a las condiciones reales de conducción, aunque no pueden representarlas completamente.",
           parent:"faqaccordion",
         },
+        {
+          id:"Four",
+          title: "¿Que significa la autonomía real?",
+          desc: "La autonomía real de un vehículo está determinada por las condiciones precisas de conducción y, por lo tanto, a menudo será menor que el valor homologado. Factores como tu estilo de conducción, el tipo de carretera que recorres, las ubicaciones y las condiciones climáticas de tus trayectos influirán en la autonomía de tu vehículo eléctrico, similar a como sucede con uno de combustión interna.",
+          parent:"faqaccordion",
+        },
+        {
+          id:"Four",
+          title: "¿Qué ocurre si el destino está fuera de mi alcance?",
+          desc: "Con una autonomía de hasta 410 km (WLTP), el Aiways U5 está perfectamente preparado para los viajes improvisados de larga distancia. Cuando planifiques un viaje, usa una aplicación como A Better Route Planner y escribe el trayecto que deseas hacer (por ejemplo, de Madrid a Valencia). En unos segundos, la aplicación calculará la ruta óptima, mostrará las estaciones de carga y calculará el tiempo de carga necesario. Mientras el vehículo se carga, aprovecha para estirar las piernas. Con el tiempo te acostumbrarás a planificar las paradas para cargar según tus necesidades.",
+          parent:"faqaccordion",
+        },
+        {
+          id:"Four",
+          title: "¿Qué opciones de carga hay y cuánto tiempo se tarda en cargar en Aiways U5?",
+          desc: "Carga cómodamente el Aiways U5 con tu red eléctrica doméstica. Ya sea en casa, en la oficina o de vacaciones, el Aiways U5 puede cargarse con cualquier toma de corriente doméstica estándar de 230 V gracias al cable de carga ICCB que se incluye de serie (puede variar según las condiciones específicas de cada país). Por lo general, el vehículo puede cargarse durante la noche si no se ha agotado por completo la batería.Solo hay que conectar el vehículo a la unidad de carga con el cable de carga de tipo 2 para estaciones de carga de CA (el cable también se incluye de serie). Este cable te permite también utilizar una amplia variedad de estaciones de carga públicas. La potencia disponible en las estaciones de carga públicas puede variar entre los proveedores de electricidad; por ello, el tiempo de la carga puede ser diferente Solo hay que conectar el vehículo a la unidad de carga con el cable de carga de tipo 2 para estaciones de carga de CA (el cable también se incluye de serie). Este cable te permite también utilizar una amplia variedad de estaciones de carga públicas. La potencia disponible en las estaciones de carga públicas puede variar entre los proveedores de electricidad; por ello, el tiempo de la carga puede ser diferente",
+          parent:"faqaccordion",
+        },
       ],
      
     };

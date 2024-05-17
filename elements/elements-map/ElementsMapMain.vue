@@ -49,7 +49,29 @@
       </div>
     </div>
   </section>
-  <!-- Map Black area end -->
+      <div class="col-lg-12 col-md-6">
+        <div class="contact__location-box text-center white-bg mt-100 mb-50">
+          <div class="contact__location-box-content">
+            <h3 class="">Distribuidor oficial en Costa Rica</h3>
+            <div class="contact__location-box-icon heigt-10">
+              ,<a href=""></a>
+              
+            </div>
+            <div class="contact__location-box-info">
+              <p><a href="tel:686-324-6838">www.electroautoscr.com/</a></p>
+            </div>
+
+            <div class="contact__location-box-btn">
+              <a
+                href="https://www.electroautoscr.com/"
+                target="_blank"
+                class="tp-btn-border"
+                >Ir a la página</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
 </template>
 <script>
 import { GoogleMap, Marker, InfoWindow } from "vue3-google-map";
