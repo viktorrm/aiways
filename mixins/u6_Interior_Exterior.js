@@ -2,13 +2,12 @@ import exteriordiseño from "~/assets/img/aiways/carsSpecs/u6/exteriordiseño.jp
 import exteriorluces from "~/assets/img/aiways/carsSpecs/u6/exteriorluces.jpg";
 import exteriorruedas from "~/assets/img/aiways/carsSpecs/u6/exteriorruedas.jpg";
 import exteriortecho from "~/assets/img/aiways/carsSpecs/u6/exteriortecho.jpg";
-import exteriorpuerta from "~/assets/img/aiways/carsSpecs/u5/exteriorpuerta.jpg";
-import interiorasientos from "~/assets/img/aiways/carsSpecs/U6/interiorasientos.jpg";
-import interiormanibela from "~/assets/img/aiways/carsSpecs/U6/interiormanibela.jpg";
-import interiorcomfort from "~/assets/img/aiways/carsSpecs/U6/interiorcomfort.jpg";
-import interiortecnologia from "~/assets/img/aiways/carsSpecs/U6/interiortecnologia.jpg";
-import interiorespacioguardado from "~/assets/img/aiways/carsSpecs/U5/interiorespacioguardado.jpg";
-import aire from "~/assets/img/aiways/carsSpecs/U5/aire.jpg";
+import interiorasientos from "~/assets/img/aiways/carsSpecs/u6/interiorasientos.jpg";
+import interiormanibela from "~/assets/img/aiways/carsSpecs/u6/interiormanibela.jpg";
+import interiorcomfort from "~/assets/img/aiways/carsSpecs/u6/interiorcomfort.jpg";
+import interiortecnologia from "~/assets/img/aiways/carsSpecs/u6/interiortecnologia.jpg";
+
+
 
 
 export const specs = {

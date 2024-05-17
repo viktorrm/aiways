@@ -16,7 +16,7 @@
     </div>
     <div class="contain">
       <div class="text-black text_in_photo_2">
-        <div class="title_in_photo2">A tu manera.<b>JSolo eléctrico.</b></div>
+        <div class="title_in_photo2">A tu manera.<b> Solo eléctrico.</b></div>
         <div class="desc2">
           <p>
             Experimenta la inesperada amplitud, el confort incomparable y la
