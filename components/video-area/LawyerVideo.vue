@@ -118,15 +118,15 @@ export default {
 .text_in_photo_2 {
   position: relative;
   width: 110%;
-  height: 155px;
-  right: 6px;
+  height: 169px;
+  right:20px;
   top: -120%;
   rotate: -8deg;
   border-bottom-left-radius: 20px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-inline: 30px;
   background: green;
   text-align: center;
-  padding: 20px;
   line-height: 25px;
   background: white;
   @media screen and (min-width: 750px) {
@@ -168,7 +168,7 @@ export default {
   rotate: 8deg !important;
   margin-top: 30px;
   @media screen and (max-width: 750px) {
-    font-size: 4vw;
+    margin-bottom:20px !important;
   }
 }
 
@@ -178,6 +178,9 @@ export default {
   right: 15vw;
   @media screen and (max-width: 550px) {
     left: 50%;
+    width: 150px;
+
+
     transform: translate(-50%, -50%);
   }
 }

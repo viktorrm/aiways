@@ -13,7 +13,7 @@
                 </div>
                 <div class="footer__widget-content">
                   <div class="footer__info">
-                    <p>The home and elements needed to create beautiful products.</p>
+                    
                     <div class="footer__contact">
                       <div class="">
                         <span><a href="tel:624-423-26-72"><i class="fa-solid fa-phone"></i> +506 8815 9919</a></span>

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="">
       <div class="text-center mt-100 mb-5 title_div">
-        Carga intuitiva y directa con el Aiways U
+        Carga intuitiva y directa con el Aiways 
       </div>
       <div class="pt-25 pb-25 text-center">
         <p>
@@ -16,7 +16,18 @@
       </div>
     </div>
   </div>
-  <div class="text-center"><img src="/_nuxt/assets/img/u6-premium.mp4" /></div>
+  <div class="text-center container"><video
+        class="video w-100"
+        id="video"
+        :src="srcVideo"
+        ref="video"
+        width="800"
+        height="400"
+        autoplay
+        loop
+        muted
+        style="object-fit: cover"
+      ></video></div>
   <section class="faq__area pt-100 pb-25">
     <div class="container">
       <div class="row">
@@ -61,6 +72,7 @@
 <script>
 import SingleFaq from "./SingleFaq2.vue";
 import { infoCarga2 } from "~~/mixins/infoCarga2.js";
+import srcVideo from "~/assets/img/aiways/u6-charging.mp4"
 export default {
   components: { SingleFaq },
   props: {
@@ -80,6 +92,7 @@ export default {
       indexSelected: 0,
       selectedTab: { ...infoCarga2[0] },
       infoCarga2,
+      srcVideo: srcVideo,
     };
   },
 };
