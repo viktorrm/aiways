@@ -1,7 +1,6 @@
 <template>
   <section class="portfolio__area pb-60 fix">
     <div class="container">
-      <div class="row"></div>
       <div class="row justify-content-center">
         <div class="col-xl-12">
           <div class="portfolio__details-slider p-relative pl-50 pr-50">
@@ -63,7 +62,7 @@ export default {
   components: { Carousel, Slide, Pagination },
   data() {
     return {
-      images: [galeria1, galeria2, galeria3, galeria4,galeria5,galeria6],
+      images: [galeria1, galeria2, galeria3, galeria4, galeria5, galeria6],
     };
   },
 };

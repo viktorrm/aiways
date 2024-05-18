@@ -76,7 +76,7 @@ export default {
 @media (max-width: 575px) {
   .floating {
     bottom: 30px !important;
-    right: 1% !important;
+    right: 2.5% !important;
   }
 }
 .floating {
@@ -119,7 +119,6 @@ export default {
 .footerModal {
   padding: 10px;
   background-color: lightgray;
-  /* border-top: solid 1px lightgray; */
 }
 
 /* The popup chat - hidden by default */
@@ -163,12 +162,12 @@ export default {
 
 .slideTotop {
   bottom: 100px !important;
-  right: 1% !important;
+  right: 2.5% !important;
 
   transition: bottom 0.6s ease-in-out !important;
   @media (max-width: 575px) {
     bottom: 70px !important;
-    right: 1%;
+    /* right: 3%; */
   }
 }
 </style>
