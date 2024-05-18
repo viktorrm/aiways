@@ -1,5 +1,5 @@
 <template>
-  <LayoutOne>
+  <LayoutOne class="slider">
     <HomeHero2 />
     <AboutTextArea2 />
     <BoxShadowStyle2 />
@@ -31,3 +31,8 @@ useHead({
   title: "Aiways Costa Rica",
 });
 </script>
+<style scoped>
+.slider {
+  overflow: hidden !important;
+}
+</style>
