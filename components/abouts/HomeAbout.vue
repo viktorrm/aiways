@@ -26,11 +26,8 @@
             data-sal-duration="1000"
           >
             <p>
-              The city and town name generator uses a database of over five
-              million names across more than 150 countries. If you are looking
-              for a random city or town name to spark a location for a book,
-              game, or a script, millions of possibilities are at your finger
-              tips. How you use the city or town name is up to you.
+              
+Encuentra estaciones de carga de vehículos eléctricos con PlugShare, el mapa de estaciones de carga de VE más completo del mundo!
             </p>
 
             <div class="about__btn">
