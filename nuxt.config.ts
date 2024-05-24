@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: "Harry - Creative Agency & Portfolio Vue Nuxt 3 Template",
+      title: "Aiways",
       link: [{ rel: "icon", type: "image/x-icon", href: "/aiways-logo.svg" }],
       script: [
         {
