@@ -2,7 +2,7 @@
   <div class="container">
     <div class="">
       <div class="text-center mt-100 mb-5 title_div">
-        Carga intuitiva y directa con el Aiways 
+        Carga intuitiva y directa con el Aiways
       </div>
       <div class="pt-25 pb-25 text-center">
         <p>
@@ -19,7 +19,7 @@
   <section class="faq__area pt-100 pb-25">
     <div class="container">
       <div class="text-center">
-        <img class="w-100" src="/_nuxt/assets/img/carga.jpg" />
+        <img class="w-100" src="~/assets/img/carga.jpg" />
       </div>
       <div class="row">
         <div class="col-xxl-12">

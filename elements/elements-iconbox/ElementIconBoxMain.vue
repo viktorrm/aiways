@@ -37,7 +37,7 @@ import FreelancerAwards from "~~/components/awards/FreelancerAwards.vue";
 import CommonBreadcrumb from "~~/components/breadcrumb/CommonBreadcrumb.vue";
 import StartUpCounter from '~~/components/counters/StartUpCounter.vue';
 import HomeServices from "~~/components/services/HomeServices.vue";
-import PersonalPortServices from "~~/components/services/PersonalPortServices.vue";
+// import PersonalPortServices from "~~/components/services/PersonalPortServices.vue";
 import ShopFeatures from '~~/components/shop/ShopFeatures.vue';
 import BoxShadowStyle from './BoxShadowStyle.vue';
 import BoxShadowWithBorder from './BoxShadowWithBorder.vue';
@@ -83,4 +83,3 @@ export default {
   },
 };
 </script>
-    
