@@ -10,9 +10,7 @@ import video7 from "~/assets/img/aiways/carsSpecs2/video7.mp4";
 import foto3 from "~/assets/img/aiways/carsSpecs2/foto3.jpg";
 import exteriorruedas from "~/assets/img/aiways/carsSpecs/u5/exteriorruedas.jpg";
 import exteriortecho from "~/assets/img/aiways/carsSpecs/u5/exteriortecho.jpg";
-import exteriorpuerta from "~/assets/img/aiways/carsSpecs/u5/exteriorpuerta.jpg"; 
-
-import srcVideo from "~/assets/img/aiways/videou6.mp4";
+import exteriorpuerta from "~/assets/img/aiways/carsSpecs/u5/exteriorpuerta.jpg";
 
 export const specs = {
   interior: [
@@ -49,7 +47,7 @@ export const specs = {
         titulo: "Advertencia de colisión frontal (FCW)",
         desc: "Usando un radar y cámaras orientadas hacia adelante, la advertencia de colisión frontal detecta vehículos y peatones delante de ti.Si tu automóvil se acerca a otro vehículo o a un peatón a una velocidad de más de 10 km/h,sonará una alarma.También aparecerá una notificación en tu pantalla táctil combinada, recordándote que reduzcas la velocidad y mantengas una distancia segura.  ",
       },
-     img: foto1,
+      img: foto1,
     },
     {
       title: "Asistente de mantenimiento de carril (LKA)",
@@ -57,7 +55,7 @@ export const specs = {
         titulo: "Asistente de mantenimiento de carril (LKA)",
         desc: "El asistente de mantenimiento de carril te ayuda a mantener tu vehículo en su carril actual.Si tu vehículo se desvía involuntariamente hacia otro carril,el sistema detectará esto utilizando una cámara orientada hacia adelante y corregirá automáticamente tu dirección,frenado y/o aceleración. Este asistente permanece activo a velocidades entre 60 y 120 km/h y también te advierte si quitas las manos del volante durante más de ocho segundos.",
       },
-     video: video4,
+      video: video4,
     },
     {
       title: "Detección de punto ciego (BSD)",
@@ -65,9 +63,8 @@ export const specs = {
         titulo: "Detección de punto ciego (BSD)",
         desc: "La detección de punto ciego te ayuda a mantener todo a la vista y, al cambiar de carril,te advierte de otros vehículos que se acercan mediante un zumbido y una luz de advertencia. El sistema también incluye una función de advertencia de apertura de puertas, que te avisa a ti y a tus pasajeros de los vehículos que se acercan cuando salen del automóvil. ",
       },
-     video: video5,
+      video: video5,
     },
-    
   ],
 
   exterior: [
@@ -77,7 +74,7 @@ export const specs = {
         titulo: "Interruptor de circuito activado por colisión",
         desc: "Si tu vehículo se ve involucrado en una colisión, todas las puertas se desbloquearán automáticamente y las luces de emergencia comenzarán a parpadear. Además, la energía se cortará inmediatamente en todos los demás circuitos eléctricos, lo que previene cortocircuitos, incendios y otros incidentes graves dentro del vehículo.  ",
       },
-     video: video6,
+      video: video6,
     },
     {
       title: "Carrocería",
@@ -93,7 +90,7 @@ export const specs = {
         titulo: "Asistente de estacionamiento",
         desc: "Para activar el sistema de asistencia de estacionamiento, simplemente tienes que operar el interruptor en la consola central y continuar conduciendo a una velocidad moderada.Una señal acústica, junto con una notificación de texto en la pantalla, te alertará sobre un espacio de estacionamiento adecuado.Para iniciar el proceso de estacionamiento automático, simplemente presiona el interruptor y mantén presionado el pedal del freno al mismo tiempo.Mantén presionado el interruptor durante todo el procedimiento de estacionamiento, hasta que este haya sido completado.",
       },
-     video: video7,
+      video: video7,
     },
     {
       title: "Airbags",
