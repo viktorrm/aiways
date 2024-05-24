@@ -1,16 +1,14 @@
 <template>
   <div class="container">
     <div class="">
-      <div class="text-center mt-100 title_div">
-        Especificaciones Técnicas
-      </div>
+      <div class="text-center mt-100 title_div">Especificaciones Técnicas</div>
     </div>
   </div>
   <section class="faq__area pt-100 pb-25">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-sm-12 img_specs">
-          <img src="/_nuxt/assets/img/aiways/u6-premium.jpg" />
+          <img src="~/assets/img/aiways/u6-premium.jpg" />
         </div>
         <div class="col-lg-6 col-sm-12">
           <div class="faq__tab-2 tp-tab mb-50">

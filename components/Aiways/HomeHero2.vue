@@ -1,13 +1,11 @@
 <template>
   <section class="slider__area p-relative">
-
     <div class="header">
       <video
         class="video w-100"
         id="video"
         :src="srcVideo"
         ref="video"
-      
         autoplay
         loop
         muted
@@ -21,10 +19,8 @@
 
 <script>
 // internal
-import bg_1 from "~/assets/aiways/slider/videou6.mp4";
-import bg_2 from "~/assets/img/slider/slider-2.jpg";
-import bg_3 from "~/assets/img/slider/slider-3.jpg";
-import srcVideo from "~/assets/img/aiways/videou6.mp4"
+
+import srcVideo from "~/assets/img/aiways/videou6.mp4";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Navigation, EffectFade } from "swiper";
 
@@ -40,28 +36,6 @@ export default {
       canvas: null,
       ctx: null,
       title: "Your Title Here",
-      bg_1,
-      bg_2,
-      bg_3,
-      slider_data: [
-        {
-          id: 1,
-          title: "Descubre el Aiways U6",
-          bg: bg_1,
-        },
-        {
-          id: 2,
-          pre_title: "Hello! Consulting",
-          title: "To This Template Than What You Can See",
-          bg: bg_2,
-        },
-        {
-          id: 3,
-          pre_title: "Hello! Consulting",
-          title: "Digital Age Adventure <br /> In Marketing",
-          bg: bg_3,
-        },
-      ],
     };
   },
   methods: {
@@ -125,8 +99,7 @@ canvas {
   height: 800px;
   margin-top: 80px;
   @media screen and (max-width: 750px) {
-   height: 300px;
+    height: 300px;
   }
 }
-
 </style>
