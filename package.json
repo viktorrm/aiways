@@ -1,17 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxt dev --port 8080 --dotenv .env.production",
+    "dev": "nuxt dev --port 8085 --analyze",
     "build": "nuxt build --dotenv .env.production",
     "start": "nuxt start --dotenv .env.production --port 8080",
     "generate": "nuxt generate  --dotenv .env.production",
     "generate-qa": "nuxt generate  --dotenv .env.qa",
     "prod": "nuxt generate --dotenv .env.production && nuxt start",
     "prod-local": "nuxt generate --dotenv .env.qa && node .output/server.index.mjs",
-    "serve": "vite preview --port 80",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run dev",
-    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
-    "lint": "npm run lint:js"
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install --legacy-peer-deps && npm run dev"
   },
   "devDependencies": {
     "nuxt": "3.0.0"
