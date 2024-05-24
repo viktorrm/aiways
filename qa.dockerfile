@@ -7,7 +7,7 @@ COPY package*.json ./
 RUN npm install --legacy-peer-deps
 
 COPY . .
-RUN npm run generate --fail-on-error
+RUN npm run generate-qa --fail-on-error
 # RUN npm prune --production
 
 ### STAGE 2: NGINX ###

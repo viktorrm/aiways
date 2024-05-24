@@ -5,6 +5,7 @@
     "build": "nuxt build --dotenv .env.production",
     "start": "nuxt start --dotenv .env.production --port 8080",
     "generate": "nuxt generate  --dotenv .env.production",
+    "generate-qa": "nuxt generate  --dotenv .env.qa",
     "prod": "nuxt generate --dotenv .env.production && nuxt start",
     "prod-local": "nuxt generate --dotenv .env.qa && node .output/server.index.mjs",
     "serve": "vite preview --port 80",
