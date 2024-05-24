@@ -23,7 +23,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 # docker build . -f prod.dockerfile -t nuxt-test
 # docker run -p 8081:8081  nuxt-test:latest
-# 
+
 # gcloud builds submit --tag gcr.io/apis-317904/nuxt-text:latest .
 
 
