@@ -1,11 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev --port=8080",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "dev": "nuxt dev --port 8085 --analyze",
+    "build": "nuxt build --dotenv .env.production",
+    "start": "nuxt start --dotenv .env.production --port 8080",
+    "generate": "nuxt generate  --dotenv .env.production",
+    "generate-qa": "nuxt generate  --dotenv .env.qa",
+    "prod": "nuxt generate --dotenv .env.production && nuxt start",
+    "prod-local": "nuxt generate --dotenv .env.qa && node .output/server.index.mjs",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install --legacy-peer-deps && npm run dev"
   },
   "devDependencies": {
     "nuxt": "3.0.0"
