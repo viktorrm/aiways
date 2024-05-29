@@ -24,7 +24,7 @@
                 <!-- MobileMenus end -->
               </div>
             </div>
-            <div class="offcanvas__menu offcanvas__menu-ff-space d-none d-lg-block">
+            <div class="offcanvas_menu offcanvas_menu-ff-space d-none d-lg-block">
               <nav>
                   <ul>
                     <li><nuxt-link href="/">Home</nuxt-link></li>
@@ -56,7 +56,7 @@
 </template>
 
 <script>
-import Social from '~~/components/social/Social.vue';
+import Social from '/components/social/Social.vue';
 import MobileMenus from './MobileMenus.vue';
 
   export default {
@@ -76,4 +76,3 @@ import MobileMenus from './MobileMenus.vue';
   },
   }
 </script>
-
