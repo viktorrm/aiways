@@ -79,12 +79,12 @@
               />
             </div>
             <div class="contact__location-box-info">
-              <p><a href="tel:686-324-6838">@electroautos_costarica</a></p>
+              <p><a href="">@aiways.costarica</a></p>
             </div>
 
             <div class="contact__location-box-btn">
               <a
-                href="https://www.instagram.com/electroautos_costarica/"
+                href="https://www.instagram.com/aiways.costarica/"
                 target="_blank"
                 class="tp-btn-border"
                 >Instagram</a

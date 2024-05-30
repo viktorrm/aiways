@@ -14,6 +14,7 @@ export default {
 p {
   font-size: 20px !important;
   line-height: 1.62 !important;
+  font-weight: 350;
 }
 .title_div {
   font-size: 48px !important;
