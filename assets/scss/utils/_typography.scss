@@ -2,11 +2,15 @@
 // font url
 
 $font-url: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap';
-
+@font-face {
+    font-family: 'Aiways';
+    src: url('../../fonts/OPENSANS-LIGHT.TTF') format('truetype');
+ 
+  }
 // font family
 $font-family: (
     ff: (
-        'body': "'Open Sans light', sans-serif", // body font
+        'body': "'Aiways', sans-serif", // body font
         'heading': "'Open Sans', sans-serif", // heading font
         'p': "'Open Sans', sans-serif", //  p tag font
         'inter': "'Inter', sans-serif", //  p tag font
