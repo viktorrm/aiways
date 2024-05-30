@@ -53,17 +53,28 @@
         <div class="contact__location-box text-center white-bg mt-100 mb-50">
           <div class="contact__location-box-content">
             <h3 class="">Distribuidor oficial en Costa Rica</h3>
+         
             <div class="contact__location-box-icon heigt-10">
-              ,<a href=""></a>
-              
+              <a href=""></a>
+                 <img class="container small-image"
+                href="https://www.instagram.com/electroautos_costarica/"
+                target="_blank"
+                src="~/assets/img/aiways/electrouatoslogo.png"
+              />  
             </div>
+            
+            
             <div class="contact__location-box-info">
-              <p><a href="tel:686-324-6838">www.electroautoscr.com/</a></p>
+                     
+              <p><a href="tel:686-324-6838">www.electroautoscr.com</a> 
+            
+              </p>
             </div>
 
             <div class="contact__location-box-btn">
+             
               <a
-                href="https://www.electroautoscr.com/"
+                href="https://www.electroautoscr.com"
                 target="_blank"
                 class="tp-btn-border"
                 >Ir a la página</a
@@ -98,4 +109,8 @@ a:hover {
 .info-window {
   background-color: #aaa4e0;
 }
+  .small-image {
+    width: 200px; /* Ajusta este valor según tus necesidades */
+    height: auto; /* Mantiene la proporción original de la imagen */
+  }
 </style>

@@ -11,7 +11,7 @@
           perfecta para cada escenario. Pronto notarás que la carga "lenta" de
           corriente alterna (CA) generalmente es perfectamente adecuada; sin
           embargo, el Aiways U5 también ofrece carga ultrarrápida de corriente
-          continua (CC), con hasta 90 kW, en estaciones Hypercharger.
+          continua (CC), con hasta 90 kW, en estaciones estaciones de carga rapida (DC).
         </p>
       </div>
     </div>

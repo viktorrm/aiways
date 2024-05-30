@@ -71,7 +71,7 @@
           <div class="contact__location-box-content">
             <h3 class="">Descubre más sobre nosotros</h3>
             <div class="contact__location-box-icon heigt-10">
-              ,<a href=""></a>
+              <a href=""></a>
               <img
                 href="https://www.instagram.com/electroautos_costarica/"
                 target="_blank"
