@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
+  target: "static",
   css: [
     "bootstrap/scss/bootstrap.scss",
     "swiper/css/bundle",
@@ -16,7 +18,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: "Harry - Creative Agency & Portfolio Vue Nuxt 3 Template",
+      title: "Aiways",
       link: [{ rel: "icon", type: "image/x-icon", href: "/aiways-logo.svg" }],
       script: [
         {
