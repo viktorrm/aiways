@@ -89,7 +89,11 @@ export default {
 <style scoped>
 .slider__title {
   position: 0;
-  margin: -320px;
+  margin: -370px;
+  font-family: Open Sans light;
+  font-weight: 100;
+  font-size: 70px;
+  letter-spacing: 2px;
 }
 .slider__height {
   margin-top: 80px;
