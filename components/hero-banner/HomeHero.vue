@@ -95,6 +95,13 @@ export default {
   font-size: 70px;
   letter-spacing: 2px;
 }
+@media screen and (max-width: 768px) {
+  .slider__title {
+    font-size: 8vw; /* Tamaño de fuente relativo al ancho del viewport para dispositivos más pequeños */
+  }
+}
+
+
 .slider__height {
   margin-top: 80px;
 }
