@@ -90,7 +90,7 @@ export default {
 .slider__title {
   position: 0;
   margin: -370px;
-  font-family: Open Sans light;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 70px;
   letter-spacing: 2px;
