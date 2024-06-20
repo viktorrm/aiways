@@ -78,7 +78,7 @@
               >
                 <div class="offcanvas__info-item">
                   <h4 class="offcanvas__info-item-title">Información</h4>
-                  <p> +506 8815 99 19</p>
+                  <p> +506 6033 22 77</p>
                   <p>
                     <a >electroautoscr@gmail.com</a>
                   </p>
