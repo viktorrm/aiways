@@ -39,7 +39,7 @@ export default {
       });
     },
     waUrl() {
-      return `https://wa.me/+50688934990`;
+      return `https://wa.me/+50660332277`;
     },
   },
   methods: {},
