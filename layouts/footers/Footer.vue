@@ -16,7 +16,7 @@
                     
                     <div class="footer__contact">
                       <div class="">
-                        <span><a href="tel:624-423-26-72"><i class="fa-solid fa-phone"></i> +506 8815 9919</a></span>
+                        <span><a href="tel:"><i class="fa-solid fa-phone"></i> +506 6033 2277</a></span>
                       </div>
                       <div class="footer__contact-mail">
                         <span><a >electroautoscr@gmail.com</a></span>

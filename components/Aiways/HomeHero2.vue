@@ -12,7 +12,7 @@
         style="object-fit: cover"
       ></video>
     </div>
-    <h1>Descubre el Aiways U6</h1>
+    <h1 class="title2">Descubre el Aiways U6</h1>
     <!--  -->
   </section>
 </template>
@@ -101,5 +101,11 @@ canvas {
   @media screen and (max-width: 750px) {
     height: 300px;
   }
+}
+.title2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 70px;
+  letter-spacing: 2px;
 }
 </style>
